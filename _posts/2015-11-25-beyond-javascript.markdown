@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "前端的未来，写在Angular和React火热之际"
-date:   2015-11-24 23:21:30 +0800
+date:   2015-11-25 23:21:30 +0800
 categories: developer 
 ---
 

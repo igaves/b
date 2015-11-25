@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "坚持写作的动力"
+title:  "每天写一点点，其实就是无聊的蛋疼"
 date:   2015-11-24 23:21:30 +0800
 categories: unless 
 ---
