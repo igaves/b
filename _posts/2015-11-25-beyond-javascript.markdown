@@ -43,7 +43,7 @@ AS2，都是在控制Flash中的元件，Flash中的素材，但是到了AS3，�
 
 那么再说一下Rxjs的概念，这基本上都是Observable Sequence的概念，相互订阅通知，根据状态的切换来进行不同的处理方式，而且，这种组件&组件之间或者组件&数据之间的通信，很容易写成隐形的封装。
 
-Angular1.x基本上也是类Flex的给予Observable的设计理念，但是，目前的ViewModel之间的状态切换，还是依赖于Event&Listener || Callback&Promise实现的通信协议，就是Dirty Check逻辑，当然，这样能够为你的模型使用纯老式的JavaScript对象。
+Angular1.x基本上也是类Flex的给予Observable的设计理念，但是，目前的ViewModel之间的状态切换，还是依赖于Event&Listener  Callback&Promise实现的通信协议，就是Dirty Check逻辑，当然，这样能够为你的模型使用纯老式的JavaScript对象。
 
 Angular2，其实真正的改变，并非框架版本号从1.x到了2.x，也并非切换到Typescript，也并非号称的组件化模块化响应，也不是装饰化声明（Meta？
 
