@@ -77,8 +77,6 @@ React提供了一种很强化的思路，强调于数据单流向，但是没有
 
 未完待...
 
-<img src="/public/images/money.jpg" width="300">
-
 
 
 
