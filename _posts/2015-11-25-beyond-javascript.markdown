@@ -3,6 +3,7 @@ layout: post
 title:  "前端的未来，写在Angular和React火热之际"
 date:   2015-11-25 23:21:30 +0800
 categories: developer 
+paid: yes
 ---
 
 其实从Angular大改版到Angular2，我就预感到了，真正的Web 和 Mobile的融合即将到来。

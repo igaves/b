@@ -12,6 +12,7 @@ layout: default
     {{ content }}
   </div>
 
+  {% if page.paid %}
   <ul class="post-footer">
     <li class="first">
       <p><img src="/public/images/qrcode.jpg" class="qrcode"/></p>
@@ -28,4 +29,5 @@ layout: default
       <p>觉得有点意思的土豪<br />你也意思一下</p>
     </li>
   </ul>
+  {% endif %}
 </article>
