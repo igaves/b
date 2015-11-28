@@ -46,7 +46,7 @@ layout: default
         if(jumpDelay == 0){
           clearInterval(jumpTimer);
           timerDom.innerHTML = '正在';
-          window.location.replace="{{page.jump}}";
+          window.location.href="{{page.jump}}";
         }else{
             timerDom.innerHTML = jumpDelay+"秒后"; 
             jumpDelay--;
