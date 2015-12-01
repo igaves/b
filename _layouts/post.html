@@ -17,6 +17,7 @@ layout: default
     {% endif %}
   </div>
 
+
   {% if page.paid %}
   <ul class="post-footer">
     <li class="first">
@@ -35,6 +36,15 @@ layout: default
     </li>
   </ul>
   {% endif %}
+
+  {% unless page.nocomment %}
+
+    <p style="clear:both;height:20px;" />
+
+    {% include disqus.html %}
+
+  {% endunless %}
+
 </article>
 
 {% if page.jump %}
