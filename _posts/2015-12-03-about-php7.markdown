@@ -1,0 +1,79 @@
+---
+layout: post
+title:  PHP7，号称很快的语言
+date:   2015-12-02 07:21:30 +0800
+categories: developer 
+paid: yes
+---
+早上听闻php7发布了
+说起来自己也曾经写过一阵php7，还是很有感情的，目前对于php只剩下了
+语法印象，并没有实际的细节掌握了，所以一下说的，都是闲着扯淡
+
+貌似5.6－7之间没有其他的版本了，突然蹦到7，肯定是开发者觉得改变的很重大喽。。。
+粗略的研究了一下，发现了一个很牛逼的改动
+
+函数返回值了 
+
+{% highlight php %}
+
+function fuckBy(array $people):array{
+  
+  array_map(function( string $name):int{
+    fuckingBy($name);
+  });
+  return $people;
+}
+
+{% endhighlight %}
+当然，引入了类型声明，和返回类型声明，不快才怪！
+
+{% highlight php %}
+
+define('TRUE',false);
+
+{% endhighlight %}
+
+这也算是进步。
+
+说下我认为的最重要的改动，就是匿名类;
+
+假设一个接口IObserver定义了一个方法 notify,那么，在需要一个对象传入的时候可以快速创建匿名类实现这个接口来搞定当前的逻辑
+前几天稍微写了一个AWT桌面，发现逻辑简单的时候，这个方式很便捷
+
+{% highlight php %}
+class MainController extends Controller{
+  
+  function constructor(){
+    //defined some Observer
+    $this->observer = new Observer();
+
+    //new 
+    $this->observer = new class implements IObserver{
+        public  function notify($something){
+        }
+    }
+  }
+
+
+  function actionDrawIndex(){
+
+    $this->observer->notify();
+    $this->renderSomething();
+  }
+}
+
+{% endhighlight %}
+>面向接口编程的重要性在实际开发中，对项目扩展的更好。
+
+总结一下，就是，PHP终于尝试放弃若类型来进行开发了,放弃了若类型，我可以理解成为，可以进行‘编译行为’了，不管是上线编译，还是即时编译
+越来越趋向于运行速度这个需求了
+
+###不过我印象中，PHP从来都不是靠运行速度混江湖的
+
+###靠的是学习成本低。
+
+未完待。。
+
+
+
+

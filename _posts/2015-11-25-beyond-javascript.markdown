@@ -18,6 +18,7 @@ setTimeout(function(){xxx},1000);
 
 {% highlight javascript %}
 function(){}.delay(1000);
+
 {% endhighlight %}
 
 delay的实现，完全依赖了回调函数的处理。
