@@ -18,13 +18,12 @@ layout: default
   </div>
 
 
-  {% if page.paid %}
   <ul class="post-footer">
     <li class="first">
       <p><img src="/public/images/qrcode.jpg" class="qrcode"/></p>
       <p>扫码关注 <br /><b>莫大艺术家</b> <br />非技术文章,有事留言</p>
     </li>
-    <!--
+    {% if page.paid %}
       <li>
         <p><img src="/public/images/money199.jpg" class="qrcode"/></p>
         <p>零碎打赏 <br />让我乐一下</p>
@@ -34,9 +33,8 @@ layout: default
         <p><img src="/public/images/money999.jpg" class="qrcode"/></p>
         <p>觉得有点意思的土豪<br />你也意思一下</p>
       </li>
-    -->
+    {% endif %}
   </ul>
-  {% endif %}
 
 </article>
 
