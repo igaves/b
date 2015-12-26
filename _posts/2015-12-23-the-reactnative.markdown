@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  扯一下reactnative
+title:  扯一下reactjs,真正的解决方案，是react吗？
 date:   2015-12-23 17:21:30 +0800
 categories: it 
 ---
