@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>PHP7，号称很快的语言</title>
+  <meta name="description" content="早上听闻php7发布了说起来自己也曾经写过一阵php7，还是很有感情的，目前对于php只剩下了语法印象，并没有实际的细节掌握了，所以一下说的，都是闲着扯淡">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://igaves.com/developer/2015/12/02/about-php7.html">
+  <link rel="alternate" type="application/rss+xml" title="莫大艺术家" href="http://igaves.com/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">莫大艺术家</a>
+
+    <nav class="site-nav">
+      <a href="javascript:;" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">PHP7，号称很快的语言</h1>
+    <p class="post-meta"><time datetime="2015-12-02T07:21:30+08:00" itemprop="datePublished">发布于2015-12-02</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>早上听闻php7发布了
+说起来自己也曾经写过一阵php7，还是很有感情的，目前对于php只剩下了
+语法印象，并没有实际的细节掌握了，所以一下说的，都是闲着扯淡</p>
+
+<p>貌似5.6－7之间没有其他的版本了，突然蹦到7，肯定是开发者觉得改变的很重大喽。。。
+粗略的研究了一下，发现了一个很牛逼的改动</p>
+
+<p>函数返回值了</p>
+
+<figure class="highlight"><pre><code class="language-php" data-lang="php">function fuckBy(array $people):array{
+  
+  array_map(function( string $name):int{
+    fuckingBy($name);
+  });
+  return $people;
+}</code></pre></figure>
+
+<p>当然，引入了类型声明，和返回类型声明，不快才怪！</p>
+
+<figure class="highlight"><pre><code class="language-php" data-lang="php">define('TRUE',false);</code></pre></figure>
+
+<p>这也算是进步。</p>
+
+<p>说下我认为的最重要的改动，就是匿名类;</p>
+
+<p>假设一个接口IObserver定义了一个方法 notify,那么，在需要一个对象传入的时候可以快速创建匿名类实现这个接口来搞定当前的逻辑
+前几天稍微写了一个AWT桌面，发现逻辑简单的时候，这个方式很便捷</p>
+
+<figure class="highlight"><pre><code class="language-php" data-lang="php">class MainController extends Controller{
+  
+  function constructor(){
+    //defined some Observer
+    $this-&gt;observer = new Observer();
+
+    //new 
+    $this-&gt;observer = new class implements IObserver{
+        public  function notify($something){
+        }
+    }
+  }
+
+
+  function actionDrawIndex(){
+
+    $this-&gt;observer-&gt;notify();
+    $this-&gt;renderSomething();
+  }
+}</code></pre></figure>
+
+<blockquote>
+  <p>面向接口编程的重要性在实际开发中，对项目扩展的更好。</p>
+</blockquote>
+
+<p>总结一下，就是，PHP终于尝试放弃若类型来进行开发了,放弃了若类型，我可以理解成为，可以进行‘编译行为’了，不管是上线编译，还是即时编译
+越来越趋向于运行速度这个需求了</p>
+
+<h3 id="php">不过我印象中，PHP从来都不是靠运行速度混江湖的</h3>
+
+<h3 id="section">靠的是学习成本低。</h3>
+
+<p>未完待。。</p>
+
+
+
+    
+  </div>
+
+
+  <ul class="post-footer">
+    <li class="first">
+      <p><img src="/public/images/qrcode.jpg" class="qrcode"/></p>
+      <p>扫码关注 <br /><b>莫大艺术家</b> <br />非技术文章,有事留言</p>
+    </li>
+    
+      <li>
+        <p><img src="/public/images/money199.jpg" class="qrcode"/></p>
+        <p>零碎打赏 <br />让我乐一下</p>
+      </li>
+
+      <li>
+        <p><img src="/public/images/money999.jpg" class="qrcode"/></p>
+        <p>觉得有点意思的土豪<br />你也意思一下</p>
+      </li>
+    
+  </ul>
+
+</article>
+
+
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>莫大艺术家 &copy iGaves.com 2015</li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          <li>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>胡言乱写,艺术人生。
+</p>
+      </div>
+    </div>
+  </div>
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?ccdbaae421cac578bb0e0e6017b108d7";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+</footer>
+
+
+  </body>
+
+</html>
