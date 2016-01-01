@@ -2,7 +2,7 @@
 layout: post
 title:  Android开发vs前端开发
 date:   2015-12-31 11:59:59
-categories: photography
+categories: it
 ---
 
 ![2015最后一张照片](/public/images/2016-01-01/android-web.jpg)
