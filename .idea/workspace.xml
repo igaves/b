@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d0d31c4-a4ce-4d31-aecb-0fc0e17a674d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_includes/weibo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-01-03-kongfu-tea.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/angular.les_1.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
-    </list>
+    <list default="true" id="2d0d31c4-a4ce-4d31-aecb-0fc0e17a674d" name="Default" comment="" />
     <ignored path="igaves.com.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
