@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Restful 设计在开发中的价值</title>
+  <meta name="description" content="先说明一句，我这个是markdown写的，加图得自己切，我比较懒，就少一点图了。但是no pic say a bird.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://igaves.com/developer/2015/11/25/think-of-restful.html">
+  <link rel="alternate" type="application/rss+xml" title="莫大艺术家" href="http://igaves.com/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">莫大艺术家</a>
+
+    <nav class="site-nav">
+      <a href="javascript:;" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Restful 设计在开发中的价值</h1>
+    <p class="post-meta"><time datetime="2015-11-25T23:21:30+08:00" itemprop="datePublished">发布于2015-11-25</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>先说明一句，我这个是markdown写的，加图得自己切，我比较懒，就少一点图了。
+但是no pic say a bird.</p>
+
+<blockquote>
+  <p>A：前端，B：后端</p>
+</blockquote>
+
+<h3 id="section">场景：</h3>
+
+<blockquote>
+  <p>A:”哥，我要请求文章信息的</p>
+</blockquote>
+
+<blockquote>
+  <p>B: “好的，稍等”</p>
+</blockquote>
+
+<blockquote>
+  <p>http://domain.com/api/getArticle?id=11</p>
+</blockquote>
+
+<blockquote>
+  <p>http://domain.com/api/updateArticle?id=11</p>
+</blockquote>
+
+<blockquote>
+  <p>A:”哥，来个文章列表的吧”</p>
+</blockquote>
+
+<blockquote>
+  <p>B:”好的，稍等”</p>
+</blockquote>
+
+<blockquote>
+  <p>http://domain.com/api/aritclesist</p>
+</blockquote>
+
+<blockquote>
+  <p>A:”哥，来个文章下评论的接口吧”</p>
+</blockquote>
+
+<blockquote>
+  <p>B:”好的，稍等”</p>
+</blockquote>
+
+<blockquote>
+  <p>http://domain.com/api/getComment?article_id=11</p>
+</blockquote>
+
+<blockquote>
+  <p>“哥，差不多了，所有的接口功能我都对上了。”</p>
+</blockquote>
+
+<blockquote>
+  <p>“上线吧！”</p>
+</blockquote>
+
+<h3 id="section-1">场景二</h3>
+
+<blockquote>
+  <p>A:”哥，文章，评论两个资源搞定一下”</p>
+</blockquote>
+
+<blockquote>
+  <p>B:”好的”</p>
+</blockquote>
+
+<blockquote>
+  <table>
+    <tbody>
+      <tr>
+        <td>“{articles</td>
+        <td>comments}done, comments belongs_to article “</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<blockquote>
+  <p>B:”哥，搞定了，上线吧”;</p>
+</blockquote>
+
+<blockquote>
+  <p>用到功能</p>
+</blockquote>
+
+<blockquote>
+  <p>/articles</p>
+</blockquote>
+
+<blockquote>
+  <p>/articles/11</p>
+</blockquote>
+
+<blockquote>
+  <p>articles/11/comments</p>
+</blockquote>
+
+<blockquote>
+  <p>操作CURD /articles/11</p>
+</blockquote>
+
+<p>好的，我们根据上述两个场景，先简单讲述第一个优势</p>
+
+<h3 id="api">API应该对程序员友好,具有自释性</h3>
+
+<p>首先搞定的一件事，就是前后开发同学，对于协议的定制在业务之前就已经有初步的约定了，就是resource资源描述</p>
+
+<ul>
+  <li>
+    <p>首先，API描述资源，不需要动词来解释用途</p>
+  </li>
+  <li>
+    <p>再次，API接收HTTP动作(POST,GET..)，进行对应的用途指引</p>
+  </li>
+  <li>
+    <p>最后，用API层级描述，来表达资源之间的关系</p>
+  </li>
+</ul>
+
+<p>这样做，最大的好处，就是无论新手，还是老员工，都可以在理解restful设计理念的基础上，无缝的切入业务开发的洪流之中，不需要进行很多接口文档的研读，新业务也不需要提前敲定接口协议，即可进行前后端联合开发</p>
+
+<h3 id="api-1">API对于系统开发友好，可快速抽象业务逻辑</h3>
+
+<p>这个最直接的体现，就是很多框架，库的实现呵呵哒。</p>
+
+<p>未完待…</p>
+
+
+
+    
+  </div>
+
+
+  <ul class="post-footer">
+    <li class="first">
+      <p><img src="/public/images/qrcode.jpg" class="qrcode"/></p>
+      <p>扫码关注 <br /><b>莫大艺术家</b> <br /></p>
+    </li>
+  </ul>
+
+</article>
+
+
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>莫大艺术家 &copy iGaves.com 2015</li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          <li>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>胡言乱写,艺术人生。
+</p>
+      </div>
+    </div>
+  </div>
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?ccdbaae421cac578bb0e0e6017b108d7";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+</footer>
+
+
+  </body>
+
+</html>
