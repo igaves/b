@@ -54,6 +54,8 @@ categories: IT
 
 抓取过程
 ![抓取过程](/public/images/2016-01-04/finder-running.png)
+
+
 抓取结果
 ![2015最后一张照片](/public/images/2016-01-04/finder-result.png)
 
