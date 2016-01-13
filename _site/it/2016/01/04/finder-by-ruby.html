@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>抓取采集,用CSS3选择器应该是趋势吧</title>
+  <meta name="description" content="正则类型的采集方式,已经略微复杂了,成本太高">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://igaves.com/it/2016/01/04/finder-by-ruby.html">
+  <link rel="alternate" type="application/rss+xml" title="莫大艺术家" href="http://igaves.com/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">莫大艺术家</a>
+
+    <nav class="site-nav">
+      <a href="javascript:;" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">抓取采集,用CSS3选择器应该是趋势吧</h1>
+    <p class="post-meta"><time datetime="2016-01-04T20:59:59+08:00" itemprop="datePublished">发布于2016-01-04</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>正则类型的采集方式,已经略微复杂了,成本太高</p>
+
+<p>最好的应该是在server端把页面执行掉,然后再分析DOM</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby">    <span class="nb">require</span> <span class="s1">'open-uri'</span>
+    <span class="nb">require</span> <span class="s1">'nokogiri'</span>
+    
+    <span class="c1">#最爽的,还是再此步骤,起一个server端的webkit,先把页面执行掉.</span>
+    <span class="c1">#然后再进行抓去分析</span>
+    <span class="n">doc</span> <span class="o">=</span> <span class="no">Nokogiri</span><span class="o">::</span><span class="no">HTML</span><span class="p">(</span><span class="nb">open</span><span class="p">(</span><span class="s2">"http://www.someserver.com/read/3951/"</span><span class="p">));</span>
+    
+    <span class="n">links</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">doc</span><span class="p">.</span><span class="nf">css</span><span class="p">(</span><span class="s1">'#readerlist li a'</span><span class="p">).</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">item</span><span class="o">|</span>
+      <span class="n">href</span> <span class="o">=</span> <span class="n">item</span><span class="p">.</span><span class="nf">attribute</span><span class="p">(</span><span class="s1">'href'</span><span class="p">)</span>
+      <span class="k">unless</span> <span class="sr">/javascript/</span> <span class="o">=~</span> <span class="n">href</span><span class="p">.</span><span class="nf">to_s</span>
+        <span class="n">links</span><span class="p">.</span><span class="nf">push</span> <span class="s2">"http://www.miaobige.com</span><span class="si">#{</span><span class="n">href</span><span class="p">.</span><span class="nf">to_s</span><span class="si">}</span><span class="s2">"</span>
+      <span class="k">else</span>
+        <span class="n">href</span><span class="p">.</span><span class="nf">to_s</span><span class="p">.</span><span class="nf">gsub</span><span class="p">(</span><span class="sr">/(\d+)/</span><span class="p">){</span><span class="o">|</span><span class="n">m</span><span class="o">|</span>
+          <span class="n">links</span><span class="p">.</span><span class="nf">push</span> <span class="s2">"http://www.miaobige.com/read/3951/</span><span class="si">#{</span><span class="n">m</span><span class="p">.</span><span class="nf">to_i</span> <span class="o">-</span> <span class="mi">100</span><span class="si">}</span><span class="s2">.html"</span>
+        <span class="p">}</span>
+      <span class="k">end</span>
+    <span class="k">end</span>
+    
+    <span class="n">fd</span> <span class="o">=</span> <span class="no">IO</span><span class="p">.</span><span class="nf">sysopen</span><span class="p">(</span><span class="s1">'output.txt'</span><span class="p">,</span><span class="s1">'a+'</span><span class="p">)</span>
+    
+    <span class="n">f</span> <span class="o">=</span> <span class="no">IO</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="n">fd</span><span class="p">,</span><span class="s1">'a+'</span><span class="p">)</span>
+    
+    <span class="n">links</span><span class="p">.</span><span class="nf">each</span> <span class="k">do</span> <span class="o">|</span><span class="n">link</span><span class="o">|</span>
+      <span class="n">d</span> <span class="o">=</span> <span class="no">Nokogiri</span><span class="o">::</span><span class="no">HTML</span><span class="p">(</span><span class="nb">open</span><span class="p">(</span><span class="n">link</span><span class="p">),</span><span class="kp">nil</span><span class="p">,</span><span class="s1">'GBK'</span><span class="p">)</span>
+    
+      <span class="nb">puts</span> <span class="s2">"读取链接</span><span class="si">#{</span><span class="n">link</span><span class="p">.</span><span class="nf">to_s</span><span class="si">}</span><span class="s2">"</span>
+    
+      <span class="n">title</span> <span class="o">=</span> <span class="n">d</span><span class="p">.</span><span class="nf">css</span><span class="p">(</span><span class="s1">'title'</span><span class="p">).</span><span class="nf">inner_html</span><span class="p">.</span><span class="nf">to_s</span><span class="p">.</span><span class="nf">encode</span><span class="p">(</span><span class="s1">'utf-8'</span><span class="p">,</span><span class="s1">'GBK'</span><span class="p">,</span><span class="ss">:invalid</span><span class="o">=&gt;</span><span class="ss">:replace</span><span class="p">,</span><span class="ss">:undef</span><span class="o">=&gt;</span><span class="ss">:replace</span><span class="p">)</span>
+      <span class="n">f</span><span class="p">.</span><span class="nf">puts</span> <span class="n">title</span>
+      <span class="n">f</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"</span><span class="se">\r\n</span><span class="s2">"</span>
+    
+      <span class="n">content</span> <span class="o">=</span> <span class="n">d</span><span class="p">.</span><span class="nf">css</span><span class="p">(</span><span class="s1">'#content'</span><span class="p">).</span><span class="nf">inner_html</span><span class="p">.</span><span class="nf">gsub</span><span class="p">(</span><span class="sr">/&lt;\/?\w+&gt;/</span><span class="p">,</span><span class="s1">''</span><span class="p">).</span><span class="nf">to_s</span><span class="p">.</span><span class="nf">encode</span><span class="p">(</span><span class="s1">'utf-8'</span><span class="p">,</span><span class="s1">'GBK'</span><span class="p">,</span><span class="ss">:invalid</span><span class="o">=&gt;</span><span class="ss">:replace</span><span class="p">,</span><span class="ss">:undef</span><span class="o">=&gt;</span><span class="ss">:replace</span><span class="p">,</span><span class="ss">:replace</span> <span class="o">=&gt;</span> <span class="s2">"?"</span><span class="p">)</span>
+    
+      <span class="n">f</span><span class="p">.</span><span class="nf">puts</span> <span class="n">content</span>
+      <span class="n">f</span><span class="p">.</span><span class="nf">puts</span>  <span class="s2">"</span><span class="se">\r\n</span><span class="s2">"</span>
+      <span class="n">f</span><span class="p">.</span><span class="nf">puts</span> <span class="s2">"</span><span class="se">\r\n</span><span class="s2">"</span>
+    <span class="k">end</span>
+    
+    <span class="n">f</span><span class="p">.</span><span class="nf">close</span></code></pre></figure>
+
+<p>抓取过程
+<img src="/public/images/2016-01-04/finder-running.png" alt="抓取过程" /></p>
+
+<p>抓取结果
+<img src="/public/images/2016-01-04/finder-result.png" alt="2015最后一张照片" /></p>
+
+
+
+    
+  </div>
+
+
+  <ul class="post-footer">
+    <li class="first">
+      <p><img src="/public/images/qrcode.jpg" class="qrcode"/></p>
+      <p>扫码关注 <br /><b>莫大艺术家</b> <br /></p>
+    </li>
+  </ul>
+
+</article>
+
+
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>莫大艺术家 &copy iGaves.com 2015</li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          <li>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>胡言乱写,艺术人生。
+</p>
+      </div>
+    </div>
+  </div>
+  <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?ccdbaae421cac578bb0e0e6017b108d7";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+</footer>
+
+
+  </body>
+
+</html>

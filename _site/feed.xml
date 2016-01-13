@@ -6,9 +6,120 @@
 </description>
     <link>http://igaves.com/</link>
     <atom:link href="http://igaves.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 04 Jan 2016 13:52:19 +0800</pubDate>
-    <lastBuildDate>Mon, 04 Jan 2016 13:52:19 +0800</lastBuildDate>
+    <pubDate>Wed, 13 Jan 2016 22:43:35 +0800</pubDate>
+    <lastBuildDate>Wed, 13 Jan 2016 22:43:35 +0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>闲扯两句，你的存在感，是online的吗？</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;我也曾经有手机丢失的瞬间，没有提醒消息，没有电话，孤零零一个人，顿时感觉从现代社会整体剥离了一个四维空间出来让我独处，等到手机找到，看着满屏的未读消息而热泪盈眶，存在感油然而生，赶紧在朋友圈感慨一句，啊，手机找到了。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;我这个人比较无聊，经常性的去朋友圈看一下大家分享的文章，拜托于优质的朋友圈和勤奋的屏蔽微商，我的朋友圈可读性还是很高的，经常性的能遇到特别优质的文章，并且很有转发欲望。&lt;/p&gt;
+
+&lt;p&gt;有时候，我分享一个观点，亦或分享一篇文章，再加上几句评论，都是很强烈的一种表达欲，而且渴望共鸣，而且期望赞同。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;她的朋友圈，全部都是原创，很少有转发，生活琐事，图文纪录，生活琐事，喜怒哀乐，深夜美食，旅途美景。
+    微博上热闹非凡，收听上千，粉丝上千，虽不是什么大号，但是也是常年存在感十足的。
+    “算是一种生活态度吧，也是一种行为习惯，很多时候，可以表达自己的态度，也可以传递给朋友自己的信息”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;但是有那么一小撮人，微博，朋友圈基本上是闲置状态，没有任何更新，想了解他，要么打个电话，要么约出来吃个饭&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;她的朋友圈，热闹。
+    但是在别人朋友圈里，她的存在基本上为0。
+    因为她从来不发。
+    我比较好奇，她是怎么看待别人发朋友圈这件事。
+    “刷存在感而已”。
+    “那你不想刷？你旅游完毕后，竟然没有分享的冲动？吃过好吃的，不想让大家知道？”
+    她很淡定的回复道：“我体验的东西，很多人都体验过，我体会到的，大家未必体会得到，我分享一两张图片，发表自己的观点，又能如何？我的满足感早已足够，无需再朋友圈再拿到什么。”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;总会有一种生活方式和自己的有差异，并且无法理解。
+某次和朋友谈这个问题，他问了我一句：
+    “你是否在心理压力最大的时候发过朋友圈？”
+答案肯定是没有。&lt;/p&gt;
+
+&lt;p&gt;然后他解释了一下他从来不发朋友圈的理由&lt;/p&gt;
+
+&lt;p&gt;朋友圈发的信息或多或少，都逐步给于朋友自己的生活碎片，然后建立起自己在其他人眼中的形象，也会或多或少增加很多无效社交，时间宝贵，年纪越大越懒得消耗，与其这样，还不如去网站上发评论，发回复，这样最起码还会有很多技术上的合得来的人一块讨论。&lt;/p&gt;
+
+&lt;p&gt;低成本，带来了很多无效社交。&lt;/p&gt;
+</description>
+        <pubDate>Tue, 12 Jan 2016 20:59:59 +0800</pubDate>
+        <link>http://igaves.com/%E6%97%A0%E8%81%8A/2016/01/12/your-life-online.html</link>
+        <guid isPermaLink="true">http://igaves.com/%E6%97%A0%E8%81%8A/2016/01/12/your-life-online.html</guid>
+        
+        
+        <category>无聊</category>
+        
+      </item>
+    
+      <item>
+        <title>抓取采集,用CSS3选择器应该是趋势吧</title>
+        <description>&lt;p&gt;正则类型的采集方式,已经略微复杂了,成本太高&lt;/p&gt;
+
+&lt;p&gt;最好的应该是在server端把页面执行掉,然后再分析DOM&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;    &lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;open-uri&#39;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&#39;nokogiri&#39;&lt;/span&gt;
+    
+    &lt;span class=&quot;c1&quot;&gt;#最爽的,还是再此步骤,起一个server端的webkit,先把页面执行掉.&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;#然后再进行抓去分析&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;doc&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Nokogiri&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;HTML&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;http://www.someserver.com/read/3951/&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+    
+    &lt;span class=&quot;n&quot;&gt;links&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;doc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;css&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;#readerlist li a&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;href&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;attribute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;href&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;unless&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/javascript/&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=~&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_s&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;links&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;push&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;http://www.miaobige.com&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_s&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;href&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gsub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/(\d+)/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+          &lt;span class=&quot;n&quot;&gt;links&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;push&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;http://www.miaobige.com/read/3951/&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.html&quot;&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+    
+    &lt;span class=&quot;n&quot;&gt;fd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;IO&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sysopen&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;output.txt&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;a+&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    
+    &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;IO&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fd&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;a+&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    
+    &lt;span class=&quot;n&quot;&gt;links&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;each&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;link&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;|&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Nokogiri&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;HTML&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;kp&quot;&gt;nil&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;GBK&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    
+      &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;读取链接&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_s&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+    
+      &lt;span class=&quot;n&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;css&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;title&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;inner_html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;utf-8&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;GBK&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:invalid&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:undef&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\r\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+    
+      &lt;span class=&quot;n&quot;&gt;content&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;css&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;#content&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;inner_html&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;gsub&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/&amp;lt;\/?\w+&amp;gt;/&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;to_s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;encode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;utf-8&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;GBK&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:invalid&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:undef&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:replace&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:replace&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;?&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    
+      &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;content&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;puts&lt;/span&gt;  &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\r\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\r\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+    
+    &lt;span class=&quot;n&quot;&gt;f&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;close&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;抓取过程
+&lt;img src=&quot;/public/images/2016-01-04/finder-running.png&quot; alt=&quot;抓取过程&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;抓取结果
+&lt;img src=&quot;/public/images/2016-01-04/finder-result.png&quot; alt=&quot;2015最后一张照片&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 04 Jan 2016 20:59:59 +0800</pubDate>
+        <link>http://igaves.com/it/2016/01/04/finder-by-ruby.html</link>
+        <guid isPermaLink="true">http://igaves.com/it/2016/01/04/finder-by-ruby.html</guid>
+        
+        
+        <category>IT</category>
+        
+      </item>
     
       <item>
         <title>功夫茶,还是工夫茶?</title>
@@ -410,160 +521,6 @@ github上拉了几个项目在研究,也写了不少demo
         
         
         <category>developer</category>
-        
-      </item>
-    
-      <item>
-        <title>Babel,给JS进化加一把火</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;这玩意以前叫6to5
-就是把ES6的东西编译成ES5，也就是说，可以快速进入新的语法逻辑，而且可以兼容旧的浏览器&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;这个重要性不言而喻，其实ES6的语法改版，就是为了推进前端的进化。&lt;/p&gt;
-
-&lt;p&gt;新的开发方式。&lt;/p&gt;
-
-&lt;p&gt;回顾当年Ajax狂潮，其实技术很早就有，然后突然的这种开发方式对整个的互联网进行了全新的诠释，用户体验这个词汇应运而出。&lt;/p&gt;
-
-&lt;p&gt;先说下莫大认为的重要性几点&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;function A(){
-  this.load();
-}
-A.prototype.load= {
-  //当属于A的dom被点击触发事件拉取
-  domBelongToA.onclick=function(){
-    Service.loadData().done(B.reDraw);
-  }
-}
-
-function B(){
-}
-B.prototype.reDraw = function(data){
-  //重会B的页面显示
-  domBelongToB.render(data)
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;可以看到，其实，AB两个对象之间，是相互依赖的，而且页面属性也是纠缠的。
-不得不说，这就是现在的最常用的开发方式&lt;/p&gt;
-
-&lt;p&gt;即便我们用angular，也得通过一个Service来进行数据的传递&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;angular.module(&#39;app&#39;).service(&#39;loader&#39;,[&#39;$http&#39;,function(){
-
-    return {
-      data:{},
-      load:function(){
-        var _this = this;
-        $http.get().done(function(res){
-            _this.data = res.data;
-        })..
-      }
-    }
-}]);
-
-angular.module(&#39;app&#39;).controller(&#39;A&#39;,[&#39;loader&#39;,function(loader){
-
-    this.load = function(){
-      loader.load();
-    }
-}]);
-
-angular.module(&#39;app&#39;).controller(&#39;B&#39;,[&#39;loader&#39;,function(loader){
-
-    //loader infect
-    
-}]);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;这个是却是很传统的方式，数据的流向，必须有一层桥接(angular的设计思路已经很先进了)，活着嵌套引用。
-谈什么设计模式。&lt;/p&gt;
-
-&lt;p&gt;A其实就是个界面操作，B也是界面操作，那么肯定要进行比较规范化的拆分，界面，数据等等&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;export interface IHttpRequest{
-  loaded(res:object):void;
-  error(res:object):void;
-  request(promise:Promise):Promise;
-}
-
-class Loader {
-
-  function addEventListner(name:string,handler:IHttpRequest){
-    var http:Http = new Http();
-    http.url = &#39;xx&#39;;
-    //不封装了，其实这里可以HTTP内包含接口实现,写出来参考而已
-    http.get(IHttpRequest.request)
-      .success(IHttpRequest.loaded)
-      .error(IHttpRequest.error);
-  }
-}
-
-export class B{
-
-    [selector=&quot;domBelongToA&quot;]
-    click(event:Event)(
-       var loader =  new Loader(); 
-       //此处用接口类型解
-       loader.addEventListner(&#39;loaded&#39;,this);
-       loader.load();
-    )
-
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;其实用这中方式，新手老手都必须走一条强行实现接口的过程，
-那么基本上可以保证质量维持在一个范围内。&lt;/p&gt;
-
-&lt;p&gt;那么也就是说，babel最深入的意义并不是语言之间的转化，而是期望于语言之间的转化，能引入新的开发方式。&lt;/p&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;前端开发者的困境&lt;/h2&gt;
-
-&lt;p&gt;纵观前端开发者，基本上都是快餐式开发，左手一个搜索引擎，右手一个浏览器开发者工具
-代码不会写上网一搜，页面有问题，就哪里不行点哪里，实在不行卡个断点，so easy。&lt;/p&gt;
-
-&lt;p&gt;回头想象，我们开发渐渐趋向于一个&lt;em&gt;尝试性开发&lt;/em&gt;
-那么java是怎么来做的呢，因为编译性语言，总归写几个字，就编译一下调试吧。。&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;稍等，今天我去采访一下前IBM测试开发工程师，现在的小米金融大数据开发工程师去，这是我同学，我不能瞎喷。。采访完贴内容。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;未完待续。。 只写半小时，剩下的时间写代码。。
-要是想催更新，快收听。&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 29 Nov 2015 20:21:30 +0800</pubDate>
-        <link>http://igaves.com/developer/2015/11/29/start-babel.html</link>
-        <guid isPermaLink="true">http://igaves.com/developer/2015/11/29/start-babel.html</guid>
-        
-        
-        <category>developer</category>
-        
-      </item>
-    
-      <item>
-        <title>《速度与激情7》隐藏福利，格斗女王：Ronda Rousey</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;速度激情系列铁粉，但是没想到在最后一步激情系列中，有幸感看到了格斗女王的风骚身影
-Rousey柔道运动员出身
-一路摔倒奥运会，拿了北京奥运会柔道铜牌。
-突然感觉到人生好无聊，瞬间在自己职业生涯巅峰的时候，退役&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;未完…&lt;/p&gt;
-
-&lt;h3 id=&quot;section&quot;&gt;内容首发公众账号：莫大艺术家&lt;/h3&gt;
-</description>
-        <pubDate>Sat, 28 Nov 2015 17:21:30 +0800</pubDate>
-        <link>http://igaves.com/movie/2015/11/28/ronda-ronsey-speed.html</link>
-        <guid isPermaLink="true">http://igaves.com/movie/2015/11/28/ronda-ronsey-speed.html</guid>
-        
-        
-        <category>movie</category>
         
       </item>
     
