@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>一个错误的webview页面长连思路</title>
-  <meta name="description" content="突然有了个想法demo如下起了一个ws请求连到了后台    ….    var ws = new WebSocket(“ws://demo.igaves.com”);    ws.onmessage = function(evt){        let flag = evt.data.flag;        ...">
+  <meta name="description" content="demo如下">
 
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="http://igaves.com/developer/2016/06/11/webworker-demo.html">
@@ -62,15 +62,18 @@
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <h3 id="section">突然有了个想法</h3>
-<p>demo如下
-起了一个ws请求连到了后台
-    ….
-    var ws = new WebSocket(“ws://demo.igaves.com”);
-    ws.onmessage = function(evt){
-        let flag = evt.data.flag;
-        sendMessageToView(flag,event.data);
-    };</p>
+    <p>demo如下</p>
+
+<p>起了一个ws请求连到了后台</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>....
+var ws = new WebSocket("ws://demo.igaves.com");
+ws.onmessage = function(evt){
+    let flag = evt.data.flag;
+    sendMessageToView(flag,event.data);
+};
+</code></pre>
+</div>
 
 <p>有这么一步后,我在进入页面就建立了连接,然后,直接发送当前的行为tag,server 端把本tag所有必备数据,全部加工好发过来.</p>
 
@@ -108,13 +111,17 @@ sendWs(:user,user);
 
 <p>继续思考.</p>
 
-<p>我上了http2.0,那么多个http,其实是走的一个连接通道.
-那么我纯的想法,在可缓存的应用上,基本上就是被废掉了.</p>
+<p>我上了http2.0,那么多个http,其实是走的一个连接通道.</p>
 
-<p>那我又有了个新想法,
-想避开网络IO损耗,其实异步长连还是有用的.
-但是IO损耗避免不了,总归需要代理层来解决一些缓存问题.
-加了代理层,其实也无所谓什么node什么了..只要不雪崩,就好.</p>
+<p>那么我纯的想法,在可缓存的应用上,基本上就是被废掉了.</p>
+
+<p>那我又有了个新想法,</p>
+
+<p>想避开网络IO损耗,其实异步长连还是有用的.</p>
+
+<p>但是IO损耗避免不了,总归需要代理层来解决一些缓存问题.</p>
+
+<p>加了代理层,其实也无所谓什么node什么了..只要不雪崩,就好.</p>
 
 
 

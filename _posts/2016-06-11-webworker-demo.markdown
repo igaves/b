@@ -5,9 +5,10 @@ date:   2016-06-11 12:59:59
 categories: developer
 ---
 
-###突然有了个想法
 demo如下
+
 起了一个ws请求连到了后台
+
     ....
     var ws = new WebSocket("ws://demo.igaves.com");
     ws.onmessage = function(evt){
@@ -47,11 +48,15 @@ demo完成,基本上就是用socket替代了http的逻辑.
 继续思考.
 
 我上了http2.0,那么多个http,其实是走的一个连接通道.
+
 那么我纯的想法,在可缓存的应用上,基本上就是被废掉了.
 
 那我又有了个新想法,
+
 想避开网络IO损耗,其实异步长连还是有用的.
+
 但是IO损耗避免不了,总归需要代理层来解决一些缓存问题.
+
 加了代理层,其实也无所谓什么node什么了..只要不雪崩,就好.
 
 
