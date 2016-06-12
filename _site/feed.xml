@@ -6,9 +6,75 @@
 </description>
     <link>http://igaves.com/</link>
     <atom:link href="http://igaves.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Jan 2016 22:43:35 +0800</pubDate>
-    <lastBuildDate>Wed, 13 Jan 2016 22:43:35 +0800</lastBuildDate>
+    <pubDate>Sun, 12 Jun 2016 23:45:58 +0800</pubDate>
+    <lastBuildDate>Sun, 12 Jun 2016 23:45:58 +0800</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>一个错误的webview页面长连思路</title>
+        <description>&lt;h3 id=&quot;section&quot;&gt;突然有了个想法&lt;/h3&gt;
+&lt;p&gt;demo如下
+起了一个ws请求连到了后台
+    ….
+    var ws = new WebSocket(“ws://demo.igaves.com”);
+    ws.onmessage = function(evt){
+        let flag = evt.data.flag;
+        sendMessageToView(flag,event.data);
+    };&lt;/p&gt;
+
+&lt;p&gt;有这么一步后,我在进入页面就建立了连接,然后,直接发送当前的行为tag,server 端把本tag所有必备数据,全部加工好发过来.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ws.onopen = function(){
+    sendActionTag(pageTag);
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;demo完成,基本上就是用socket替代了http的逻辑.&lt;/p&gt;
+
+&lt;p&gt;然后,仔细思考下.
+对于请求本身,建立一次socket连接,和多个http连接,哪个资源成本更高?&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;socket当然秒杀http喽..不过socket是长时间连接的,http是分散请求的,峰值压力,某些业务下,http很可能是碾压socket的.&lt;/li&gt;
+  &lt;li&gt;缓存这事就没辙了..socket只能人肉缓存.低效,http可以充分利用http协议来做缓存控制.&lt;/li&gt;
+  &lt;li&gt;无缓存的情况下,如果是实时数据处理,集中性的数据业务,socket可能更漂亮.比如web im?呵呵这个例子不恰当.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;欧克,看一下server端处理吧..&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;article = Article.find_by_id params[:id] //from mysql &amp;amp; redis
+sendWs(:article,article);
+user = User.mine(); //read session(redis) &amp;amp; mysql
+sendWs(:user,user);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;仔细一看,server端损耗基本上在网络IO之上,其次是sendWS中对于ruby对象的json化.&lt;/p&gt;
+
+&lt;p&gt;其实有了ws之后,传统的网络方式未必靠谱了..果断EM(这里果断切node也是合理的)&lt;/p&gt;
+
+&lt;p&gt;其实,避开网络IO实效损失才是应做的.&lt;/p&gt;
+
+&lt;p&gt;继续思考.&lt;/p&gt;
+
+&lt;p&gt;我上了http2.0,那么多个http,其实是走的一个连接通道.
+那么我纯的想法,在可缓存的应用上,基本上就是被废掉了.&lt;/p&gt;
+
+&lt;p&gt;那我又有了个新想法,
+想避开网络IO损耗,其实异步长连还是有用的.
+但是IO损耗避免不了,总归需要代理层来解决一些缓存问题.
+加了代理层,其实也无所谓什么node什么了..只要不雪崩,就好.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 11 Jun 2016 20:59:59 +0800</pubDate>
+        <link>http://igaves.com/developer/2016/06/11/webworker-demo.html</link>
+        <guid isPermaLink="true">http://igaves.com/developer/2016/06/11/webworker-demo.html</guid>
+        
+        
+        <category>developer</category>
+        
+      </item>
     
       <item>
         <title>闲扯两句，你的存在感，是online的吗？</title>
@@ -447,80 +513,6 @@ github上拉了几个项目在研究,也写了不少demo
         
         
         <category>unless</category>
-        
-      </item>
-    
-      <item>
-        <title>PHP7，号称很快的语言</title>
-        <description>&lt;p&gt;早上听闻php7发布了
-说起来自己也曾经写过一阵php7，还是很有感情的，目前对于php只剩下了
-语法印象，并没有实际的细节掌握了，所以一下说的，都是闲着扯淡&lt;/p&gt;
-
-&lt;p&gt;貌似5.6－7之间没有其他的版本了，突然蹦到7，肯定是开发者觉得改变的很重大喽。。。
-粗略的研究了一下，发现了一个很牛逼的改动&lt;/p&gt;
-
-&lt;p&gt;函数返回值了&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;function fuckBy(array $people):array{
-  
-  array_map(function( string $name):int{
-    fuckingBy($name);
-  });
-  return $people;
-}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;当然，引入了类型声明，和返回类型声明，不快才怪！&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;define(&#39;TRUE&#39;,false);&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;这也算是进步。&lt;/p&gt;
-
-&lt;p&gt;说下我认为的最重要的改动，就是匿名类;&lt;/p&gt;
-
-&lt;p&gt;假设一个接口IObserver定义了一个方法 notify,那么，在需要一个对象传入的时候可以快速创建匿名类实现这个接口来搞定当前的逻辑
-前几天稍微写了一个AWT桌面，发现逻辑简单的时候，这个方式很便捷&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;class MainController extends Controller{
-  
-  function constructor(){
-    //defined some Observer
-    $this-&amp;gt;observer = new Observer();
-
-    //new 
-    $this-&amp;gt;observer = new class implements IObserver{
-        public  function notify($something){
-        }
-    }
-  }
-
-
-  function actionDrawIndex(){
-
-    $this-&amp;gt;observer-&amp;gt;notify();
-    $this-&amp;gt;renderSomething();
-  }
-}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;面向接口编程的重要性在实际开发中，对项目扩展的更好。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;总结一下，就是，PHP终于尝试放弃若类型来进行开发了,放弃了若类型，我可以理解成为，可以进行‘编译行为’了，不管是上线编译，还是即时编译
-越来越趋向于运行速度这个需求了&lt;/p&gt;
-
-&lt;h3 id=&quot;php&quot;&gt;不过我印象中，PHP从来都不是靠运行速度混江湖的&lt;/h3&gt;
-
-&lt;h3 id=&quot;section&quot;&gt;靠的是学习成本低。&lt;/h3&gt;
-
-&lt;p&gt;未完待。。&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 02 Dec 2015 07:21:30 +0800</pubDate>
-        <link>http://igaves.com/developer/2015/12/02/about-php7.html</link>
-        <guid isPermaLink="true">http://igaves.com/developer/2015/12/02/about-php7.html</guid>
-        
-        
-        <category>developer</category>
         
       </item>
     
