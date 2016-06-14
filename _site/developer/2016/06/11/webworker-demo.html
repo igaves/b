@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>功夫茶,还是工夫茶?</title>
-  <meta name="description" content="我一直以为是功夫茶.">
+  <title>一个错误的webview页面长连思路</title>
+  <meta name="description" content="demo如下">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://igaves.com/%E6%97%A0%E8%81%8A/2016/01/03/kongfu-tea.html">
+  <link rel="canonical" href="http://igaves.com/developer/2016/06/11/webworker-demo.html">
   <link rel="alternate" type="application/rss+xml" title="莫大艺术家" href="http://igaves.com/feed.xml">
 </head>
 
@@ -57,112 +57,72 @@
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">功夫茶,还是工夫茶?</h1>
-    <p class="post-meta"><time datetime="2016-01-03T20:59:59+08:00" itemprop="datePublished">发布于2016-01-03</time></p>
+    <h1 class="post-title" itemprop="name headline">一个错误的webview页面长连思路</h1>
+    <p class="post-meta"><time datetime="2016-06-11T20:59:59+08:00" itemprop="datePublished">发布于2016-06-11</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>我一直以为是功夫茶.</p>
+    <p>demo如下</p>
 
-<p>很有讲究的那种</p>
+<p>起了一个ws请求连到了后台</p>
 
-<p>一个妹子</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>....
+var ws = new WebSocket("ws://demo.igaves.com");
+ws.onmessage = function(evt){
+    let flag = evt.data.flag;
+    sendMessageToView(flag,event.data);
+};
+</code></pre>
+</div>
 
-<p>撸着袖子</p>
+<p>有这么一步后,我在进入页面就建立了连接,然后,直接发送当前的行为tag,server 端把本tag所有必备数据,全部加工好发过来.</p>
 
-<p>烧着热水</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>ws.onopen = function(){
+    sendActionTag(pageTag);
+}
+</code></pre>
+</div>
 
-<p>冲着茶叶</p>
+<p>demo完成,基本上就是用socket替代了http的逻辑.</p>
 
-<p>后来,突然发现了,</p>
+<p>然后,仔细思考下.
+对于请求本身,建立一次socket连接,和多个http连接,哪个资源成本更高?</p>
 
-<p>是工夫茶</p>
+<ol>
+  <li>socket当然秒杀http喽..不过socket是长时间连接的,http是分散请求的,峰值压力,某些业务下,http很可能是碾压socket的.</li>
+  <li>缓存这事就没辙了..socket只能人肉缓存.低效,http可以充分利用http协议来做缓存控制.</li>
+  <li>无缓存的情况下,如果是实时数据处理,集中性的数据业务,socket可能更漂亮.比如web im?呵呵这个例子不恰当.</li>
+</ol>
 
-<p>1.</p>
+<p>欧克,看一下server端处理吧..</p>
 
-<p>笔误吧,我认为很多时候,是都说得通,工夫和功夫,完全是两个意思,但是中国对于功夫这两个字很敏感,提到这个,就油然一种国粹的冲动感觉到很傲娇.工夫这个词汇,其实更贴切喝茶的意境,是一种生活态度</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>article = Article.find_by_id params[:id] //from mysql &amp; redis
+sendWs(:article,article);
+user = User.mine(); //read session(redis) &amp; mysql
+sendWs(:user,user);
+</code></pre>
+</div>
 
-<p>磨洋工即来自于瞎耗时间.</p>
+<p>仔细一看,server端损耗基本上在网络IO之上,其次是sendWS中对于ruby对象的json化.</p>
 
-<p>2.</p>
+<p>其实有了ws之后,传统的网络方式未必靠谱了..果断EM(这里果断切node也是合理的)</p>
 
-<p>自打听说了工夫茶这个概念,顿时就彻底接受了工夫茶的概念.</p>
+<p>其实,避开网络IO实效损失才是应做的.</p>
 
-<p>媳妇偏好于龙井,茉莉花茶,每年到了季节,必然去吴裕泰买几辆来尝尝.</p>
+<p>继续思考.</p>
 
-<p>我也入了一套汝瓷的茶具,翠绿的茶汤和青杯浑然一体顿时很放松</p>
+<p>我上了http2.0,那么多个http,其实是走的一个连接通道.</p>
 
-<p>绿茶和花茶,冲水进去后,必然有一股子沁香冲出来,满屋子的香</p>
+<p>那么我纯的想法,在可缓存的应用上,基本上就是被废掉了.</p>
 
-<p>茶汤喝起来也很舒坦</p>
+<p>那我又有了个新想法,</p>
 
-<p>几杯下去,油腻的感觉顿时减轻不少</p>
+<p>想避开网络IO损耗,其实异步长连还是有用的.</p>
 
-<p>心情也会爽.</p>
+<p>但是IO损耗避免不了,总归需要代理层来解决一些缓存问题.</p>
 
-<p>一般去外面吃完饭,不管几点,都会烧水冲一点.</p>
+<p>加了代理层,其实也无所谓什么node什么了..只要不雪崩,就好.</p>
 
-<p>后来逐渐被我的猫王发财从桌子上扒啦摔碎了几个后</p>
-
-<p>又回归了大茶缸子的路线.</p>
-
-<p>喝了一次六安瓜片,感觉已经到了绿茶的顶峰了..</p>
-
-<p>香的不过分,喝起来爽口到家.</p>
-
-<p>3.</p>
-
-<p>茶叶的品次提高了不少</p>
-
-<p>我更偏向于红茶和黑茶</p>
-
-<p>喝过几次啥</p>
-
-<p>啥的小种,还有金花六堡茶</p>
-
-<p>都是邪了门的不好找那种</p>
-
-<p>尤其是金花茶,长了毛的砖.</p>
-
-<p>4.</p>
-
-<p>我还是继续走的大茶缸子路线</p>
-
-<p>有几次掰了一小块丢进去冲了一把</p>
-
-<p>稍微走了个神</p>
-
-<p>满茶缸子酱油.</p>
-
-<p>5.</p>
-
-<p>工作的时候,不能干喝白水</p>
-
-<p>嘴里容易淡出鸟.</p>
-
-<p>所以公司提供了吴裕泰的茶包.</p>
-
-<p>还是很不错的</p>
-
-<p>喝起来比白水强很多.</p>
-
-<p>6.</p>
-
-<p>某次顺了两包给媳妇尝</p>
-
-<p>“适合煮茶叶蛋”.</p>
-
-<p>公司白给的,要什么自行车.</p>
-
-<p>7.</p>
-
-<p>我怀念小时候两块钱一包的茉莉花茶叶末子和大搪瓷缸.</p>
-
-<p>晾凉了一杯干.</p>
-
-<p>8.</p>
-
-<p>总结一下,喝茶,就是工夫茶..</p>
 
 
     
