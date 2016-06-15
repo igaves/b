@@ -11,7 +11,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 18px/1.5 "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
@@ -44,7 +44,7 @@ figure > img {
   display: block; }
 
 figcaption {
-  font-size: 14px; }
+  font-size: 15.75px; }
 
 /**
  * Lists
@@ -83,7 +83,7 @@ blockquote {
   padding-left: 15px;
   font-size: 18px;
   letter-spacing: -1px;
-  font-style: italic; }
+  font-family: cursive; }
   blockquote > :last-child {
     margin-bottom: 0; }
 
@@ -264,7 +264,8 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 30px 0; }
+  padding: 30px 0;
+  line-height: 150%; }
 
 .page-heading {
   font-size: 20px; }
@@ -276,7 +277,7 @@ pre {
     margin-bottom: 30px; }
 
 .post-meta {
-  font-size: 14px;
+  font-size: 15.75px;
   color: #828282; }
 
 .post-link {
