@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b4de9f1-0681-46cc-b50c-6b611613fcc4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-07-18-jianghu-it.markdown" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-07-20-flooding-day.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-07-17-Clash-Royale.markdown" afterPath="$PROJECT_DIR$/_posts/2016-07-17-Clash-Royale.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/daliy/2015/11/24/daliy.html" afterPath="$PROJECT_DIR$/_site/daliy/2015/11/24/daliy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/developer/2015/11/25/beyond-javascript.html" afterPath="$PROJECT_DIR$/_site/developer/2015/11/25/beyond-javascript.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/developer/2015/11/25/think-of-restful.html" afterPath="$PROJECT_DIR$/_site/developer/2015/11/25/think-of-restful.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/developer/2015/11/29/start-babel.html" afterPath="$PROJECT_DIR$/_site/developer/2015/11/29/start-babel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/developer/2015/12/02/about-php7.html" afterPath="$PROJECT_DIR$/_site/developer/2015/12/02/about-php7.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/it/2015/12/10/ali-yunos-5-year.html" afterPath="$PROJECT_DIR$/_site/it/2015/12/10/ali-yunos-5-year.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/it/2015/12/23/the-reactnative.html" afterPath="$PROJECT_DIR$/_site/it/2015/12/23/the-reactnative.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/it/2015/12/27/how-to-build-a-project.html" afterPath="$PROJECT_DIR$/_site/it/2015/12/27/how-to-build-a-project.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/movie/2015/06/25/what-is-we-15.html" afterPath="$PROJECT_DIR$/_site/movie/2015/06/25/what-is-we-15.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/movie/2015/11/28/ronda-ronsey-speed.html" afterPath="$PROJECT_DIR$/_site/movie/2015/11/28/ronda-ronsey-speed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-07-21-shoot-street.markdown" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="igaves.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,34 +24,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2016-07-18-jianghu-it.markdown" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2016-07-18-jianghu-it.markdown">
+      <file leaf-file-name="2016-07-21-shoot-street.markdown" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-07-21-shoot-street.markdown">
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.38899803">
-                <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016-07-20-flooding-day.markdown" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2016-07-20-flooding-day.markdown">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.25933203">
-                <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <first_editor vertical-scroll-proportion="0.19870968">
+                <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -87,6 +53,7 @@
       <list>
         <option value="$PROJECT_DIR$/_posts/2016-07-18-jianghu-it.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-07-20-flooding-day.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2016-07-21-shoot-street.markdown" />
       </list>
     </option>
   </component>
@@ -308,7 +275,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967907" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3100233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3100233" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -346,13 +313,30 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-07-20-flooding-day.markdown">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.028387098">
+            <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-07-18-jianghu-it.markdown">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.38899803">
+          <first_editor vertical-scroll-proportion="0.25548387">
             <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
             <folding />
           </first_editor>
@@ -363,14 +347,14 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-07-20-flooding-day.markdown">
+    <entry file="file://$PROJECT_DIR$/_posts/2016-07-21-shoot-street.markdown">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.25933203">
-            <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <first_editor vertical-scroll-proportion="0.19870968">
+            <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
             <folding />
           </first_editor>
           <second_editor />
