@@ -10,9 +10,9 @@ permalink: /about/
 
 <a href="https://weibo.com/igaves" target="_blank">莫大艺术家的微博</a>
 
-##职业铲屎官
+## 职业铲屎官
 
-##业余爱好是写代码。
+## 业余爱好是写代码。
 
 我的Github
 
