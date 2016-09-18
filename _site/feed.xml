@@ -6,9 +6,47 @@
 </description>
     <link>http://igaves.com/</link>
     <atom:link href="http://igaves.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 18 Sep 2016 22:59:24 +0800</pubDate>
-    <lastBuildDate>Sun, 18 Sep 2016 22:59:24 +0800</lastBuildDate>
+    <pubDate>Sun, 18 Sep 2016 23:04:38 +0800</pubDate>
+    <lastBuildDate>Sun, 18 Sep 2016 23:04:38 +0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>折腾一晚上咖啡2</title>
+        <description>&lt;p&gt;接上一篇。
+昨天晚上折腾了四瓶咖啡么。。
+早上喝了一个泡咖啡粉的,差点没喝吐了我,一股子木头渣滓味道,突然想起来,这特么不就是法压壶处理吗&lt;/p&gt;
+
+&lt;p&gt;法压壶泡四分钟就得起,再多就过萃了,我特么泡了一晚上。&lt;/p&gt;
+
+&lt;p&gt;脑残。&lt;/p&gt;
+
+&lt;p&gt;晚上回来喝了一嘴手冲,明显感觉巴西豆比较香,没有一点点酸和苦味道了,也特么没手冲出来的各种坚果味道,就特么一股子香。&lt;/p&gt;
+
+&lt;p&gt;发酵时间过长,风味都没了&lt;/p&gt;
+
+&lt;p&gt;脑残+1。&lt;/p&gt;
+
+&lt;p&gt;我觉得做冷藏咖啡,手冲的时候,水温不能太高,必须再降低一点。&lt;/p&gt;
+
+&lt;p&gt;不过比较惊喜的,是用机器压出来的咖啡,因为油脂很多,所以喝起来很柔软香甜。&lt;/p&gt;
+
+&lt;p&gt;满嘴都是香喷喷的。。啥味道也没了。。&lt;/p&gt;
+
+&lt;p&gt;哈哈哈哈脑残+2.&lt;/p&gt;
+
+&lt;p&gt;晚上每瓶都喝了一堆,所以看起来睡眠是个问题了。。&lt;/p&gt;
+
+&lt;p&gt;脑残+3.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 18 Sep 2016 06:59:59 +0800</pubDate>
+        <link>http://igaves.com/story/2016/09/18/coffee-night-2.html</link>
+        <guid isPermaLink="true">http://igaves.com/story/2016/09/18/coffee-night-2.html</guid>
+        
+        
+        <category>story</category>
+        
+      </item>
     
       <item>
         <title>折腾一晚上咖啡</title>
@@ -428,79 +466,6 @@
         
         
         <category>food</category>
-        
-      </item>
-    
-      <item>
-        <title>一个错误的webview页面长连思路</title>
-        <description>&lt;p&gt;demo如下&lt;/p&gt;
-
-&lt;p&gt;起了一个ws请求连到了后台&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;....
-var ws = new WebSocket(&quot;ws://demo.igaves.com&quot;);
-ws.onmessage = function(evt){
-    let flag = evt.data.flag;
-    sendMessageToView(flag,event.data);
-};
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;有这么一步后,我在进入页面就建立了连接,然后,直接发送当前的行为tag,server 端把本tag所有必备数据,全部加工好发过来.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ws.onopen = function(){
-    sendActionTag(pageTag);
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;demo完成,基本上就是用socket替代了http的逻辑.&lt;/p&gt;
-
-&lt;p&gt;然后,仔细思考下.
-对于请求本身,建立一次socket连接,和多个http连接,哪个资源成本更高?&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;socket当然秒杀http喽..不过socket是长时间连接的,http是分散请求的,峰值压力,某些业务下,http很可能是碾压socket的.&lt;/li&gt;
-  &lt;li&gt;缓存这事就没辙了..socket只能人肉缓存.低效,http可以充分利用http协议来做缓存控制.&lt;/li&gt;
-  &lt;li&gt;无缓存的情况下,如果是实时数据处理,集中性的数据业务,socket可能更漂亮.比如web im?呵呵这个例子不恰当.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;欧克,看一下server端处理吧..&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;article = Article.find_by_id params[:id] //from mysql &amp;amp; redis
-sendWs(:article,article);
-user = User.mine(); //read session(redis) &amp;amp; mysql
-sendWs(:user,user);
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;仔细一看,server端损耗基本上在网络IO之上,其次是sendWS中对于ruby对象的json化.&lt;/p&gt;
-
-&lt;p&gt;其实有了ws之后,传统的网络方式未必靠谱了..果断EM(这里果断切node也是合理的)&lt;/p&gt;
-
-&lt;p&gt;其实,避开网络IO实效损失才是应做的.&lt;/p&gt;
-
-&lt;p&gt;继续思考.&lt;/p&gt;
-
-&lt;p&gt;我上了http2.0,那么多个http,其实是走的一个连接通道.&lt;/p&gt;
-
-&lt;p&gt;那么我纯的想法,在可缓存的应用上,基本上就是被废掉了.&lt;/p&gt;
-
-&lt;p&gt;那我又有了个新想法,&lt;/p&gt;
-
-&lt;p&gt;想避开网络IO损耗,其实异步长连还是有用的.&lt;/p&gt;
-
-&lt;p&gt;但是IO损耗避免不了,总归需要代理层来解决一些缓存问题.&lt;/p&gt;
-
-&lt;p&gt;加了代理层,其实也无所谓什么node什么了..只要不雪崩,就好.&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 11 Jun 2016 20:59:59 +0800</pubDate>
-        <link>http://igaves.com/developer/2016/06/11/webworker-demo.html</link>
-        <guid isPermaLink="true">http://igaves.com/developer/2016/06/11/webworker-demo.html</guid>
-        
-        
-        <category>developer</category>
         
       </item>
     
