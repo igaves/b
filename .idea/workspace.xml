@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b4de9f1-0681-46cc-b50c-6b611613fcc4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_posts/2016-09-23-coffee-night-5.markdown" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-09-23-coffee-night-5.markdown" afterPath="$PROJECT_DIR$/_posts/2016-09-23-coffee-night-5.markdown" />
     </list>
     <ignored path="igaves.com.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2016-09-23-coffee-night-5.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor vertical-scroll-proportion="0.654224">
-                <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+              <first_editor vertical-scroll-proportion="0.086444005">
+                <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -709,8 +709,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2016-09-23-coffee-night-5.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.654224">
-            <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+          <first_editor vertical-scroll-proportion="0.086444005">
+            <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
             <folding />
           </first_editor>
           <second_editor />
