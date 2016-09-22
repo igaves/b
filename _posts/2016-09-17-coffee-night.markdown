@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  折腾一晚上咖啡 
+title:  折腾一晚上咖啡1
 date:   2016-09-16 22:59:59
-categories: story
+categories: coffee
 ---
 
 晚上肯定不能喝咖啡啊,容易兴奋睡不着。

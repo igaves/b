@@ -2,7 +2,7 @@
 layout: post
 title:  折腾一晚上咖啡3
 date:   2016-09-20 22:59:59
-categories: story
+categories: coffee
 ---
 
 今天来思考一下,咖啡的迷人在什么地方。

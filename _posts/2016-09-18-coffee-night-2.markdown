@@ -2,7 +2,7 @@
 layout: post
 title:  折腾一晚上咖啡2
 date:   2016-09-17 22:59:59
-categories: story
+categories: coffee
 ---
 
 接上一篇。
