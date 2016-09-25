@@ -6,13 +6,18 @@ permalink: /about/
 
 >我是莫大艺术家
 
+
+##获奖经历
+
+> 美国周刊2006年年度人物
+
+> 2008年感动中国组委会特别大奖
+
 我的Weibo
 
 <a href="https://weibo.com/igaves" target="_blank">莫大艺术家的微博</a>
 
-## 职业铲屎官
-
-## 业余爱好是写代码。
+## #码农 #职业铲屎官
 
 我的Github
 
@@ -22,7 +27,6 @@ permalink: /about/
 我养了两只猫，
 
 一只王发财，一只王笔帽。
-
 
 <img src="/public/images/facai.jpg" alt="qrcode" width="200px">
 <img src="/public/images/bimao.jpg" alt="qrcode" width="200px">
