@@ -6,6 +6,12 @@ permalink: /about/
 
 # 我是莫大艺术家
 
+> #程序员中的水货
+> #特别职业的铲屎官
+> #大辰子多肉大棚首席园丁
+> #发财君咖啡馆首席咖啡师
+> #独立的业余摄影师
+> #伟大的艺术家
 
 ## 获奖经历
 
@@ -17,7 +23,7 @@ permalink: /about/
 
 <a href="https://weibo.com/igaves" target="_blank">莫大艺术家的微博</a>
 
-## #码农 #职业铲屎官
+
 
 我的Github
 
