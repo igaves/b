@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  浪费在咖啡馆阳台上的时光01
+title:  咖啡馆生活01-阳台种植多肉
 date:   2016-10-02 23:59:59
 categories: life
 ---

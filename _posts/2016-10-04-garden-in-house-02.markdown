@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  浪费在咖啡馆阳台上的时光02
+title:  咖啡馆生活02-多肉大户自白
 date:   2016-10-06 23:59:59
 categories: life
 ---
