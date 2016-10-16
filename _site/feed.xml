@@ -6,9 +6,39 @@
 </description>
     <link>http://igaves.com/</link>
     <atom:link href="http://igaves.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 16 Oct 2016 10:13:30 +0800</pubDate>
-    <lastBuildDate>Sun, 16 Oct 2016 10:13:30 +0800</lastBuildDate>
+    <pubDate>Sun, 16 Oct 2016 15:39:41 +0800</pubDate>
+    <lastBuildDate>Sun, 16 Oct 2016 15:39:41 +0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>rxjs的悲剧：分化的前端圈</title>
+        <description>&lt;p&gt;前端其实有很多项目，小到一个但页面，大可以说到一个系统工程，所以，大家在一个纬度上讨论问题本身就需要有对话的基础能力来依托。&lt;/p&gt;
+
+&lt;p&gt;比如Promise行为，在多年前，都是强行推广的，毕竟不用Promise也可以做很多事，农耕田园阶段用Callback也可以让系统跑起来。&lt;/p&gt;
+
+&lt;p&gt;但是倘若业务多有个入口数据源，那么Observable的能力就凸显出来了，再复杂的逻辑就处理即可，多重有条件异步处理，Observable能解决太多业务问题了&lt;/p&gt;
+
+&lt;p&gt;那么问题来了，大家理解这个’多重异步’，就可以讨论问题，可是不理解的话，我们讲再多流操作，都无用，不在一个对话层面。&lt;/p&gt;
+
+&lt;p&gt;所以，很多小应用，大家初次用了Redux之后，对干净的数据流控制异常欣喜。&lt;/p&gt;
+
+&lt;p&gt;当项目进入工程化阶段的时刻，怎么处理异步操作？怎么控制大量数据节点变化导致的疯狂刷出新state？&lt;/p&gt;
+
+&lt;p&gt;当然，有解。&lt;/p&gt;
+
+&lt;p&gt;不过既然有更好的解法，何必纠结在难受的处理方式上。&lt;/p&gt;
+
+&lt;p&gt;哎，我总会记得以前踩过的坑，技术布道非我所愿。&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 15 Oct 2016 07:59:59 +0800</pubDate>
+        <link>http://igaves.com/program/2016/10/15/rxjs-start.html</link>
+        <guid isPermaLink="true">http://igaves.com/program/2016/10/15/rxjs-start.html</guid>
+        
+        
+        <category>program</category>
+        
+      </item>
     
       <item>
         <title>折腾一晚上咖啡14-喝过精品咖啡，你还会喝星巴克吗？</title>
@@ -641,100 +671,6 @@
         <pubDate>Sun, 25 Sep 2016 07:59:59 +0800</pubDate>
         <link>http://igaves.com/coffee/2016/09/25/coffee-night-8.html</link>
         <guid isPermaLink="true">http://igaves.com/coffee/2016/09/25/coffee-night-8.html</guid>
-        
-        
-        <category>coffee</category>
-        
-      </item>
-    
-      <item>
-        <title>折腾一晚上咖啡7-因为爱好，所以自己做咖啡</title>
-        <description>&lt;p&gt;自己做咖啡,很容易走到一个误区上&lt;/p&gt;
-
-&lt;p&gt;做的好坏,自己不知道,同样的一份豆子,别人冲出了色彩斑斓,自己冲出了生活的心酸。&lt;/p&gt;
-
-&lt;p&gt;还沾沾自喜,觉得自己已经掌握了咖啡手冲的精髓,可以出去装逼了。&lt;/p&gt;
-
-&lt;p&gt;比如我就是这种。&lt;/p&gt;
-
-&lt;p&gt;还好我犯病早,早发现早治疗。&lt;/p&gt;
-
-&lt;p&gt;所以经常去精品咖啡馆,受点刺激也是值得的。&lt;/p&gt;
-
-&lt;h3 id=&quot;section&quot;&gt;一&lt;/h3&gt;
-
-&lt;p&gt;想喝精品咖啡馆还是比较容易的,避开大店。&lt;/p&gt;
-
-&lt;p&gt;看到一个装饰非常个性化的店,进去&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;看一眼,有没有好的磨豆机&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;磨豆机很重要,单品咖啡是需要单独的磨豆机来做的。真正的磨出来的咖啡粉,其实是不均匀的,比如粗细为10号的粉末,其实应该,2分超细,3分较细,剩下5分粗粉,混合起来的。&lt;/p&gt;
-
-&lt;p&gt;在冲水的过程中,保持通常的流速,还能保证各阶段的萃取充分。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;问下,豆子的产地来自于哪,烘培程度几何&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;豆子产地很奇怪,一个地方一个口味&lt;/p&gt;
-
-&lt;p&gt;咖啡豆基本上来自于热带,比如西瓜是一个地球,瓜蒂北极,以此来论,西瓜最好吃的部位的表面,就是咖啡豆最好吃的位置。&lt;/p&gt;
-
-&lt;p&gt;那么每种豆子,都有讲究的。&lt;/p&gt;
-
-&lt;p&gt;这个我不懂,我都是装逼问一句,然后嗯嗯嗯的走开。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;看下价格,便宜没好货。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;稍微凑合的咖啡豆,半磅也就是200g多一点得100块钱&lt;/p&gt;
-
-&lt;p&gt;那么一杯手冲最少15g豆子,成本就得7.5元啊,那么手冲精品,卖30块钱之下的,都是豆子不咋地的装逼货。&lt;/p&gt;
-
-&lt;p&gt;我觉得我这个理论有问题,不过咖啡馆成本,基本上都在店面费。能喝的手冲,没低于30块钱之下的。凑合的手冲,都得六七十。&lt;/p&gt;
-
-&lt;p&gt;如果这个咖啡馆,卖蓝山,猫屎啥的咖啡豆,相信我,一壶咖啡,不买200块钱,那就是在骗你。&lt;/p&gt;
-
-&lt;h3 id=&quot;section-1&quot;&gt;二&lt;/h3&gt;
-
-&lt;p&gt;第一条全是瞎扯。&lt;/p&gt;
-
-&lt;p&gt;不过弄一个固定渠道搞现烘培的豆子很重要,定期喝完,多余的扔掉或者打espresso对奶豪饮。&lt;/p&gt;
-
-&lt;p&gt;新鲜烘培之后,放上一两天,这个时候的豆子是最爽的,口感香气绝对巅峰时刻,所以新鲜烘培,是咖啡的内裤。&lt;/p&gt;
-
-&lt;p&gt;超过 十天的豆子,风味就开始下降了。。所以,每周买100g豆子最重要,俩人买半磅,每次30g,七天喝完。&lt;/p&gt;
-
-&lt;p&gt;一周的时间很圆满。&lt;/p&gt;
-
-&lt;p&gt;在外面喝一壶的都购买100g豆子了,所以尽量自己做。&lt;/p&gt;
-
-&lt;p&gt;不过自己做瞎了那就真的瞎了,一定要去感受下,咖啡师怎么冲这个豆子。&lt;/p&gt;
-
-&lt;p&gt;多少度的水,冲多少分,水粉笔控制多少,问清楚。&lt;/p&gt;
-
-&lt;p&gt;所以这条建议很重要,先不要自己zuo,先感受下专业咖啡师的处理手段。&lt;/p&gt;
-
-&lt;h3 id=&quot;section-2&quot;&gt;三&lt;/h3&gt;
-
-&lt;p&gt;我更相信一点,搞咖啡有两种人,第一种是养家糊口,第二种,是爱好。&lt;/p&gt;
-
-&lt;p&gt;因为爱好搞咖啡的,基本上都是大师级别的,因为咖啡除了精确的控制能力,最重要的事对咖啡的迷恋导致的倾情投入。&lt;/p&gt;
-
-&lt;p&gt;专业咖啡师中,也有水货。&lt;/p&gt;
-
-&lt;p&gt;所以,既要出去体验高水平的精品咖啡,也要自己去折腾,毕竟对我来讲,咖啡是业余爱好。&lt;/p&gt;
-
-&lt;p&gt;搞就搞出点鸟来。&lt;/p&gt;
-
-</description>
-        <pubDate>Sun, 25 Sep 2016 07:59:59 +0800</pubDate>
-        <link>http://igaves.com/coffee/2016/09/25/coffee-night-7.html</link>
-        <guid isPermaLink="true">http://igaves.com/coffee/2016/09/25/coffee-night-7.html</guid>
         
         
         <category>coffee</category>
