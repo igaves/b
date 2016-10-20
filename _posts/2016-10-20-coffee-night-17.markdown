@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  折腾一晚上咖啡17-用经验主义实践方法来做一杯好咖啡
+title:  折腾一晚上咖啡17-好咖啡应该让人感觉到愉悦
 date:   2016-10-20 23:59:59
 categories: coffee
 ---
