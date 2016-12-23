@@ -2,7 +2,7 @@
 layout: post
 title:  "莫大艺术家来了!"
 date:   2015-11-21 00:21:30 +0800
-categories: 无聊
+categories: life
 ---
 在此，更新一次博客，后续会导入历史文章
 和微信公众号同步

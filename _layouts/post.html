@@ -1,47 +1,15 @@
 ---
 layout: default
 ---
-
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">发布于{{ page.date | date: "%Y-%m-%d" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
-
-    {% if page.jump %}
-      <p><span id="jump-timer">3秒后</span>跳转阅读全文..</p>
-    {% endif %}
   </div>
 
-
-  <!--<ul class="post-footer">
-    <li class="first">
-      <p><img src="/public/images/qrcode.jpg" class="qrcode"/></p>
-      <p>扫码关注 <br /><b>莫大艺术家</b> <br /></p>
-    </li>
-  </ul>-->
-
 </article>
-
-{% if page.jump %}
-<script>
-(function(){
-    var jumpDelay = 3;
-    var timerDom = document.getElementById('jump-timer');
-    var jumpTimer = setInterval(function(){
-        if(jumpDelay == 0){
-          clearInterval(jumpTimer);
-          timerDom.innerHTML = '正在';
-          window.location.href="{{page.jump}}";
-        }else{
-            timerDom.innerHTML = jumpDelay+"秒后"; 
-            jumpDelay--;
-        }
-    },1000);
-}())
-</script>
-{% endif %}

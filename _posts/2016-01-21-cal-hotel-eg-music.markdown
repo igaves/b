@@ -2,7 +2,7 @@
 layout: post
 title:  缅怀Glenn Frey，赏析永恒的《加州招待所》
 date:   2016-01-20 00:59:59
-categories: 无聊
+categories: life
 ---
 
 知道这首歌，还是大学的时候，几个文艺青年疯狂的在宿舍敲打着吉他，我瞅着他们指间的老茧一笑而过表示很不理解。

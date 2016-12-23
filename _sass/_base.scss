@@ -6,7 +6,6 @@ p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
-    line-height: 150%;
 }
 
 
@@ -116,8 +115,8 @@ blockquote {
     padding-left: $spacing-unit / 2;
     font-size: 18px;
     letter-spacing: -1px;
-    //font-style: italic;
-    font-family:cursive;
+    font-style: italic;
+
     > :last-child {
         margin-bottom: 0;
     }

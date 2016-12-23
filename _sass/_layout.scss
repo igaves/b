@@ -169,7 +169,6 @@
  */
 .page-content {
     padding: $spacing-unit 0;
-    line-height:150%;
 }
 
 .page-heading {
@@ -214,31 +213,12 @@
     }
 }
 
-.post-footer{
-  .qrcode{
-    width:100%;
-  }
-  p{
-    width:230px;
-    text-align:center;
-  }
-  padding:0;
-  margin:0;
-  li{
-    list-style:none;
-    float:left;
-    width:230px;
-    margin-left:25px;
-    &.first{
-      margin:0;
-    }
-  }
-}
 .post-content {
     margin-bottom: $spacing-unit;
 
     h2 {
         font-size: 32px;
+
         @include media-query($on-laptop) {
             font-size: 28px;
         }

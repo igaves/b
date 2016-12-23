@@ -5,14 +5,13 @@ body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
-  padding: 0;
-  line-height: 150%; }
+  padding: 0; }
 
 /**
  * Basic styling
  */
 body {
-  font: 400 18px/1.5 "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
@@ -45,7 +44,7 @@ figure > img {
   display: block; }
 
 figcaption {
-  font-size: 15.75px; }
+  font-size: 14px; }
 
 /**
  * Lists
@@ -84,7 +83,7 @@ blockquote {
   padding-left: 15px;
   font-size: 18px;
   letter-spacing: -1px;
-  font-family: cursive; }
+  font-style: italic; }
   blockquote > :last-child {
     margin-bottom: 0; }
 
@@ -265,8 +264,7 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 30px 0;
-  line-height: 150%; }
+  padding: 30px 0; }
 
 .page-heading {
   font-size: 20px; }
@@ -278,7 +276,7 @@ pre {
     margin-bottom: 30px; }
 
 .post-meta {
-  font-size: 15.75px;
+  font-size: 14px;
   color: #828282; }
 
 .post-link {
@@ -298,22 +296,6 @@ pre {
   @media screen and (max-width: 800px) {
     .post-title {
       font-size: 36px; } }
-
-.post-footer {
-  padding: 0;
-  margin: 0; }
-  .post-footer .qrcode {
-    width: 100%; }
-  .post-footer p {
-    width: 230px;
-    text-align: center; }
-  .post-footer li {
-    list-style: none;
-    float: left;
-    width: 230px;
-    margin-left: 25px; }
-    .post-footer li.first {
-      margin: 0; }
 
 .post-content {
   margin-bottom: 30px; }
