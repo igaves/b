@@ -1,14 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>莫大艺术家</title>
+    <title>iGaves</title>
     <description>吃饭是一门艺术，睡觉是一门艺术。
 </description>
     <link>http://igaves.com/</link>
     <atom:link href="http://igaves.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 23 Dec 2016 23:40:08 +0800</pubDate>
-    <lastBuildDate>Fri, 23 Dec 2016 23:40:08 +0800</lastBuildDate>
+    <pubDate>Sat, 24 Dec 2016 11:33:06 +0800</pubDate>
+    <lastBuildDate>Sat, 24 Dec 2016 11:33:06 +0800</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>AI的思考</title>
+        <description>&lt;p&gt;所有的人工智能的终极目标就是替代人类。&lt;/p&gt;
+
+&lt;p&gt;不以此为设计目的的ai都是纸老虎&lt;/p&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;计算机来写代码的时刻已经很近了&lt;/h3&gt;
+
+&lt;p&gt;所有的人类程序基本上都是以经验来堆积起来的逻辑&lt;/p&gt;
+
+&lt;p&gt;所以，用计算机来分析，逻辑解析人的智能语言，基本已经不是太多的问题&lt;/p&gt;
+
+&lt;p&gt;把交互行为描述清楚，就可以转化成程序语言&lt;/p&gt;
+
+&lt;h3 id=&quot;section-1&quot;&gt;总是有出租车师傅拒我的单子&lt;/h3&gt;
+
+&lt;p&gt;其实再大型城市，交通压力上来后，共享交通确实是一个合理的解决方案，所以说未来自动驾驶可以商用后&lt;/p&gt;
+
+&lt;p&gt;很多的交通压力可以通过AI调度的共享自动驾驶汽车来缓解&lt;/p&gt;
+
+&lt;p&gt;但是那个时候，或许在家就可以了，也未必需要上下班出行了。&lt;/p&gt;
+
+&lt;p&gt;这都是坑，但是还得继续往前走。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-2&quot;&gt;交互已经不存在了&lt;/h3&gt;
+
+&lt;p&gt;计算能力和内容才是硬道理&lt;/p&gt;
+
+&lt;p&gt;但是计算能力可以分布式指数型提高，内容产出，AI貌似也是硬道理&lt;/p&gt;
+
+&lt;p&gt;在思考模式上，目前大脑暂时领先。&lt;/p&gt;
+
+&lt;h3 id=&quot;section-3&quot;&gt;学习方式可能要调整&lt;/h3&gt;
+
+&lt;p&gt;因为知识积累越来越多，单一学科的量级都很高，现在的教育方式，从小学到博士，未必都能入门一个未来学科&lt;/p&gt;
+
+&lt;p&gt;所以根本上要调整学习策略，提高学习效率，这个可能会规避掉一部分基础的理论，直接从培训怎么用开始，然后在逐渐注入理论基础&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 23 Dec 2016 07:59:59 +0800</pubDate>
+        <link>http://igaves.com/it/2016/12/23/ai-for-code.html</link>
+        <guid isPermaLink="true">http://igaves.com/it/2016/12/23/ai-for-code.html</guid>
+        
+        
+        <category>it</category>
+        
+      </item>
     
       <item>
         <title>微信红包的未来，很多人也在愁</title>
@@ -497,36 +545,6 @@
         
         
         <category>coffee</category>
-        
-      </item>
-    
-      <item>
-        <title>rxjs的悲剧：分化的前端圈</title>
-        <description>&lt;p&gt;前端其实有很多项目，小到一个但页面，大可以说到一个系统工程，所以，大家在一个纬度上讨论问题本身就需要有对话的基础能力来依托。&lt;/p&gt;
-
-&lt;p&gt;比如Promise行为，在多年前，都是强行推广的，毕竟不用Promise也可以做很多事，农耕田园阶段用Callback也可以让系统跑起来。&lt;/p&gt;
-
-&lt;p&gt;但是倘若业务多有个入口数据源，那么Observable的能力就凸显出来了，再复杂的逻辑就处理即可，多重有条件异步处理，Observable能解决太多业务问题了&lt;/p&gt;
-
-&lt;p&gt;那么问题来了，大家理解这个’多重异步’，就可以讨论问题，可是不理解的话，我们讲再多流操作，都无用，不在一个对话层面。&lt;/p&gt;
-
-&lt;p&gt;所以，很多小应用，大家初次用了Redux之后，对干净的数据流控制异常欣喜。&lt;/p&gt;
-
-&lt;p&gt;当项目进入工程化阶段的时刻，怎么处理异步操作？怎么控制大量数据节点变化导致的疯狂刷出新state？&lt;/p&gt;
-
-&lt;p&gt;当然，有解。&lt;/p&gt;
-
-&lt;p&gt;不过既然有更好的解法，何必纠结在难受的处理方式上。&lt;/p&gt;
-
-&lt;p&gt;哎，我总会记得以前踩过的坑，技术布道非我所愿。&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 15 Oct 2016 07:59:59 +0800</pubDate>
-        <link>http://igaves.com/program/2016/10/15/rxjs-start.html</link>
-        <guid isPermaLink="true">http://igaves.com/program/2016/10/15/rxjs-start.html</guid>
-        
-        
-        <category>program</category>
         
       </item>
     

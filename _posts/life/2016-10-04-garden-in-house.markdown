@@ -3,6 +3,9 @@ layout: post
 title:  咖啡馆生活01-阳台种植多肉
 date:   2016-10-02 23:59:59
 categories: life
+summary: >
+    其实养殖多肉，多用一些wiki，搜一下肉肉的来源，比如桃蛋，来自墨西哥北部（昼夜温差大，无严寒酷暑），景天科，https://en.wikipedia.org/wiki/Pachyphytum_oviferum
+    砂质，少水，多晒。
 ---
 阳台上摆满了多肉植物
 
