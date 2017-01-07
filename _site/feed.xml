@@ -2,13 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iGaves</title>
-    <description>吃饭是一门艺术，睡觉是一门艺术。
-</description>
-    <link>http://igaves.com/</link>
-    <atom:link href="http://igaves.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Dec 2016 11:33:06 +0800</pubDate>
-    <lastBuildDate>Sat, 24 Dec 2016 11:33:06 +0800</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <description>吃饭是一门艺术，睡觉是一门艺术。</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 08 Jan 2017 01:37:22 +0800</pubDate>
+    <lastBuildDate>Sun, 08 Jan 2017 01:37:22 +0800</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
     
       <item>
         <title>AI的思考</title>
@@ -16,7 +15,7 @@
 
 &lt;p&gt;不以此为设计目的的ai都是纸老虎&lt;/p&gt;
 
-&lt;h3 id=&quot;section&quot;&gt;计算机来写代码的时刻已经很近了&lt;/h3&gt;
+&lt;h3 id=&quot;计算机来写代码的时刻已经很近了&quot;&gt;计算机来写代码的时刻已经很近了&lt;/h3&gt;
 
 &lt;p&gt;所有的人类程序基本上都是以经验来堆积起来的逻辑&lt;/p&gt;
 
@@ -24,7 +23,7 @@
 
 &lt;p&gt;把交互行为描述清楚，就可以转化成程序语言&lt;/p&gt;
 
-&lt;h3 id=&quot;section-1&quot;&gt;总是有出租车师傅拒我的单子&lt;/h3&gt;
+&lt;h3 id=&quot;总是有出租车师傅拒我的单子&quot;&gt;总是有出租车师傅拒我的单子&lt;/h3&gt;
 
 &lt;p&gt;其实再大型城市，交通压力上来后，共享交通确实是一个合理的解决方案，所以说未来自动驾驶可以商用后&lt;/p&gt;
 
@@ -34,7 +33,7 @@
 
 &lt;p&gt;这都是坑，但是还得继续往前走。&lt;/p&gt;
 
-&lt;h3 id=&quot;section-2&quot;&gt;交互已经不存在了&lt;/h3&gt;
+&lt;h3 id=&quot;交互已经不存在了&quot;&gt;交互已经不存在了&lt;/h3&gt;
 
 &lt;p&gt;计算能力和内容才是硬道理&lt;/p&gt;
 
@@ -42,7 +41,7 @@
 
 &lt;p&gt;在思考模式上，目前大脑暂时领先。&lt;/p&gt;
 
-&lt;h3 id=&quot;section-3&quot;&gt;学习方式可能要调整&lt;/h3&gt;
+&lt;h3 id=&quot;学习方式可能要调整&quot;&gt;学习方式可能要调整&lt;/h3&gt;
 
 &lt;p&gt;因为知识积累越来越多，单一学科的量级都很高，现在的教育方式，从小学到博士，未必都能入门一个未来学科&lt;/p&gt;
 
@@ -50,8 +49,8 @@
 
 </description>
         <pubDate>Fri, 23 Dec 2016 07:59:59 +0800</pubDate>
-        <link>http://igaves.com/it/2016/12/23/ai-for-code.html</link>
-        <guid isPermaLink="true">http://igaves.com/it/2016/12/23/ai-for-code.html</guid>
+        <link>http://localhost:4000/it/2016/12/23/ai-for-code.html</link>
+        <guid isPermaLink="true">http://localhost:4000/it/2016/12/23/ai-for-code.html</guid>
         
         
         <category>it</category>
@@ -75,8 +74,8 @@
 &lt;p&gt;我感觉被红包绑架的未来，很多人也在愁&lt;/p&gt;
 </description>
         <pubDate>Wed, 21 Dec 2016 07:59:59 +0800</pubDate>
-        <link>http://igaves.com/it/2016/12/21/weixin-hongbao.html</link>
-        <guid isPermaLink="true">http://igaves.com/it/2016/12/21/weixin-hongbao.html</guid>
+        <link>http://localhost:4000/it/2016/12/21/weixin-hongbao.html</link>
+        <guid isPermaLink="true">http://localhost:4000/it/2016/12/21/weixin-hongbao.html</guid>
         
         
         <category>it</category>
@@ -110,8 +109,8 @@
 &lt;p&gt;他有咖啡，可有故事与他分享？&lt;/p&gt;
 </description>
         <pubDate>Mon, 21 Nov 2016 07:59:59 +0800</pubDate>
-        <link>http://igaves.com/life/2016/11/21/a-bar-before.html</link>
-        <guid isPermaLink="true">http://igaves.com/life/2016/11/21/a-bar-before.html</guid>
+        <link>http://localhost:4000/life/2016/11/21/a-bar-before.html</link>
+        <guid isPermaLink="true">http://localhost:4000/life/2016/11/21/a-bar-before.html</guid>
         
         
         <category>life</category>
@@ -166,8 +165,8 @@
 
 </description>
         <pubDate>Thu, 03 Nov 2016 07:59:59 +0800</pubDate>
-        <link>http://igaves.com/coffee/2016/11/03/coffee-night-21.html</link>
-        <guid isPermaLink="true">http://igaves.com/coffee/2016/11/03/coffee-night-21.html</guid>
+        <link>http://localhost:4000/coffee/2016/11/03/coffee-night-21.html</link>
+        <guid isPermaLink="true">http://localhost:4000/coffee/2016/11/03/coffee-night-21.html</guid>
         
         
         <category>coffee</category>
@@ -215,14 +214,14 @@
 
 &lt;p&gt;微信账号你懂的，不懂得想办法拿。&lt;/p&gt;
 
-&lt;h3 id=&quot;section&quot;&gt;另外&lt;/h3&gt;
+&lt;h3 id=&quot;另外&quot;&gt;另外&lt;/h3&gt;
 
 &lt;p&gt;双十一的货品价格，真的不便宜。&lt;/p&gt;
 
 </description>
         <pubDate>Wed, 02 Nov 2016 07:59:59 +0800</pubDate>
-        <link>http://igaves.com/coffee/2016/11/02/coffee-night-20.html</link>
-        <guid isPermaLink="true">http://igaves.com/coffee/2016/11/02/coffee-night-20.html</guid>
+        <link>http://localhost:4000/coffee/2016/11/02/coffee-night-20.html</link>
+        <guid isPermaLink="true">http://localhost:4000/coffee/2016/11/02/coffee-night-20.html</guid>
         
         
         <category>coffee</category>
@@ -237,7 +236,7 @@
 
 &lt;p&gt;迫不及待的冲一壶。&lt;/p&gt;
 
-&lt;h2 id=&quot;section&quot;&gt;一&lt;/h2&gt;
+&lt;h2 id=&quot;一&quot;&gt;一&lt;/h2&gt;
 
 &lt;p&gt;首先颜色是很重要的，生豆从草绿色，一直到黑色，是烘培度从低到高变化的过程，看颜色就可以简单的辨别烘培度了&lt;/p&gt;
 
@@ -251,7 +250,7 @@
 
 &lt;p&gt;颜色浅，烘培度浅，那么就应该用稍微高一点的水温来冲。&lt;/p&gt;
 
-&lt;h2 id=&quot;section-1&quot;&gt;二&lt;/h2&gt;
+&lt;h2 id=&quot;二&quot;&gt;二&lt;/h2&gt;
 
 &lt;p&gt;放到嘴里嚼一嚼，是感受一下豆子的香气，硬度等，可以初步的分析出来可能会有的风味。&lt;/p&gt;
 
@@ -265,7 +264,7 @@
 
 &lt;p&gt;如果比较硬，会从92往下尝试，降2度一冲。&lt;/p&gt;
 
-&lt;h2 id=&quot;section-2&quot;&gt;三&lt;/h2&gt;
+&lt;h2 id=&quot;三&quot;&gt;三&lt;/h2&gt;
 
 &lt;p&gt;冲出来的咖啡基本上一次就能确定大致的口感了，剩下的就是从当前口感上，进行自己的喜好调整&lt;/p&gt;
 
@@ -277,7 +276,7 @@
 
 &lt;p&gt;哎，这些都是练出来的，所以建议每种豆子每次买100g，前45g，基本上都是在调整口味。。&lt;/p&gt;
 
-&lt;h2 id=&quot;section-3&quot;&gt;四&lt;/h2&gt;
+&lt;h2 id=&quot;四&quot;&gt;四&lt;/h2&gt;
 
 &lt;p&gt;最重要的，每次调整冲泡参数，都要记下来，无参考，就没有进步。&lt;/p&gt;
 
@@ -287,8 +286,8 @@
 
 </description>
         <pubDate>Sat, 29 Oct 2016 07:59:59 +0800</pubDate>
-        <link>http://igaves.com/coffee/2016/10/29/coffee-night-19.html</link>
-        <guid isPermaLink="true">http://igaves.com/coffee/2016/10/29/coffee-night-19.html</guid>
+        <link>http://localhost:4000/coffee/2016/10/29/coffee-night-19.html</link>
+        <guid isPermaLink="true">http://localhost:4000/coffee/2016/10/29/coffee-night-19.html</guid>
         
         
         <category>coffee</category>
@@ -300,7 +299,7 @@
         <description>&lt;p&gt;如果文艺小青年逛了个大理溜达了个鼓浪屿回来就想开间咖啡馆那我会嗤之以鼻
 但是如果一个很喜欢喝咖啡的人想开一家咖啡馆，我会认为：&lt;/p&gt;
 
-&lt;h2 id=&quot;section&quot;&gt;这个家伙真的很爱咖啡&lt;/h2&gt;
+&lt;h2 id=&quot;这个家伙真的很爱咖啡&quot;&gt;这个家伙真的很爱咖啡&lt;/h2&gt;
 
 &lt;p&gt;其实我也有这种想法，而且持续了很长时间，当然冷静下来我会平息掉类似不切实际的考虑，毕竟从生活角度来讲，稳定现金流是维持爱好的第一条件，现在我可以随意买各种机器，豆子，装备，喝不完各种送朋友分享。&lt;/p&gt;
 
@@ -308,7 +307,7 @@
 
 &lt;p&gt;但是，咖啡馆的想法，还是必须要保持的，这是态度。&lt;/p&gt;
 
-&lt;h3 id=&quot;section-1&quot;&gt;一，拼配豆的稳定性&lt;/h3&gt;
+&lt;h3 id=&quot;一拼配豆的稳定性&quot;&gt;一，拼配豆的稳定性&lt;/h3&gt;
 
 &lt;p&gt;我经常思考，咖啡馆的饮品构成，其实遇到喜欢精品咖啡的人不难，总会有那么些个人无法自拔，但是大部分人还是希望喝一杯可口稳定润滑的奶咖，有的更喜欢一点点花样，奶油糖浆什么的多一点口感。
 奶咖基低，就是很多品种产地的豆子拼配起来的，问题来了，如果我去一家咖啡馆，喝一杯拿铁，我希望每次喝到的味道一样呢，还是不一样呢？
@@ -318,7 +317,7 @@
 
 &lt;p&gt;这个真的好难，除非想学星巴克吧咖啡豆烧成焦黑没有风味可言。&lt;/p&gt;
 
-&lt;h3 id=&quot;section-2&quot;&gt;二，豆子的特色&lt;/h3&gt;
+&lt;h3 id=&quot;二豆子的特色&quot;&gt;二，豆子的特色&lt;/h3&gt;
 
 &lt;p&gt;这个特色并非来自于装修或者整体风格，而是豆子的表现力。&lt;/p&gt;
 
@@ -332,7 +331,7 @@
 
 &lt;p&gt;怎么创造自己馆子的特色，这也很难。&lt;/p&gt;
 
-&lt;h3 id=&quot;section-3&quot;&gt;三，稳定的手艺&lt;/h3&gt;
+&lt;h3 id=&quot;三稳定的手艺&quot;&gt;三，稳定的手艺&lt;/h3&gt;
 
 &lt;p&gt;我自己练习手冲好久了，现在基本上可以稍微保证一种豆子冲下来能把最主要的风味展示出来，但是还是有很多不稳定因素，比如酸苦度控制，回甘质量等等。&lt;/p&gt;
 
@@ -353,8 +352,8 @@
 
 </description>
         <pubDate>Thu, 27 Oct 2016 07:59:59 +0800</pubDate>
-        <link>http://igaves.com/coffee/2016/10/27/coffee-night-18.html</link>
-        <guid isPermaLink="true">http://igaves.com/coffee/2016/10/27/coffee-night-18.html</guid>
+        <link>http://localhost:4000/coffee/2016/10/27/coffee-night-18.html</link>
+        <guid isPermaLink="true">http://localhost:4000/coffee/2016/10/27/coffee-night-18.html</guid>
         
         
         <category>coffee</category>
@@ -408,8 +407,8 @@
 
 </description>
         <pubDate>Fri, 21 Oct 2016 07:59:59 +0800</pubDate>
-        <link>http://igaves.com/coffee/2016/10/21/coffee-night-17.html</link>
-        <guid isPermaLink="true">http://igaves.com/coffee/2016/10/21/coffee-night-17.html</guid>
+        <link>http://localhost:4000/coffee/2016/10/21/coffee-night-17.html</link>
+        <guid isPermaLink="true">http://localhost:4000/coffee/2016/10/21/coffee-night-17.html</guid>
         
         
         <category>coffee</category>
@@ -430,7 +429,7 @@
 
 &lt;p&gt;以前和耶加雪菲豆子的时候，水温不够，酸度可能会稍微低一点，但是香味不会有太多损失但是我并没有想到哥斯达黎加的水汽在温度不够的情况下，两种口感差距竟然有天壤之别&lt;/p&gt;
 
-&lt;h3 id=&quot;section&quot;&gt;真的不能低估任何一个领域的专业性&lt;/h3&gt;
+&lt;h3 id=&quot;真的不能低估任何一个领域的专业性&quot;&gt;真的不能低估任何一个领域的专业性&lt;/h3&gt;
 
 &lt;p&gt;原本以为咖啡豆，在冲制的环节中，温度仅仅是影响萃取率，但并没有想到，萃取率的一个差距会对口感产生如此之大的影响&lt;/p&gt;
 
@@ -454,8 +453,8 @@
 
 </description>
         <pubDate>Tue, 18 Oct 2016 07:59:59 +0800</pubDate>
-        <link>http://igaves.com/coffee/2016/10/18/coffee-night-16.html</link>
-        <guid isPermaLink="true">http://igaves.com/coffee/2016/10/18/coffee-night-16.html</guid>
+        <link>http://localhost:4000/coffee/2016/10/18/coffee-night-16.html</link>
+        <guid isPermaLink="true">http://localhost:4000/coffee/2016/10/18/coffee-night-16.html</guid>
         
         
         <category>coffee</category>
@@ -540,8 +539,8 @@
 
 </description>
         <pubDate>Tue, 18 Oct 2016 07:59:59 +0800</pubDate>
-        <link>http://igaves.com/coffee/2016/10/18/coffee-night-15.html</link>
-        <guid isPermaLink="true">http://igaves.com/coffee/2016/10/18/coffee-night-15.html</guid>
+        <link>http://localhost:4000/coffee/2016/10/18/coffee-night-15.html</link>
+        <guid isPermaLink="true">http://localhost:4000/coffee/2016/10/18/coffee-night-15.html</guid>
         
         
         <category>coffee</category>
