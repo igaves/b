@@ -41,7 +41,9 @@
             return '';
         }
 
-        document.getElementsByTagName("h2")[0].innerHTML = _$('title');
+        document.getElementsByTagName("h2")[0].innerHTML=
+            document.getElementsByTagName("title")[0].innerHTML =
+            _$('title');
         document.getElementsByTagName("p")[0].innerHTML = _$('author');
 
         var data = {
