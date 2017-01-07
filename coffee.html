@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>coffee</title>
+    <script src="//cdn.bootcss.com/Chart.js/2.4.0/Chart.bundle.min.js"></script>
+    <style>
+        html{
+            font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif
+        }
+        h2{
+            text-align: center;
+        }
+        p{
+            text-align: right;
+            padding-right:10px;
+            font-size:12px;
+        }
+    </style>
+</head>
+<body>
+<h2>哥斯达黎加（蜜处理）</h2>
+<p></p>
+
+<canvas id="myChart" width="400" height="400"></canvas>
+<script>
+    (function(){
+
+        function _(str){
+            return str
+                .replace(/<|>|;|"|'|script/g, "");
+        }
+        function _$(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)","i");
+            var r = window.location.search.substr(1).match(reg);
+            if (r!=null) return _(decodeURIComponent(r[2]));
+
+            return '';
+        }
+
+        document.getElementsByTagName("h2")[0].innerHTML = _$('title');
+        document.getElementsByTagName("p")[0].innerHTML = _$('author');
+
+        var data = {
+            labels: ["酸","甜","苦","咸","厚度","一致性","余韵"],
+            datasets: [
+                {
+                    backgroundColor: "rgba(115,64,64,0.5)",
+                    borderColor: "rgba(179,181,198,0)",
+                    pointBackgroundColor: "rgba(179,181,198,.3)",
+                    pointBorderColor: "#fff",
+                    pointHoverBackgroundColor: "#fff",
+                    pointHoverBorderColor: "rgba(179,181,198,1)",
+                    data:function(){
+                        var arr = _$("value").split(','),returnArr=[];
+                        for(var i=0;i<arr.length;i++){
+                            returnArr.push(parseInt(arr[i]));
+                        }
+                        return returnArr;
+                    }()
+                }
+            ]
+        };
+        var options = {
+
+            defaultFontSize: 30,
+            legend:{
+                display:false
+            },
+            scale:{
+                ticks:{
+                    min:0,
+                    max:5,
+                    stepSize:1
+                },
+                scaleLabel:{
+                }
+            }
+        };
+
+
+        var ctx = document.getElementById("myChart").getContext("2d");
+
+        new Chart(ctx, {
+            type: 'radar',
+            data: data,
+            options: options
+        });
+    })();
+</script>
+</body>
+</html>
