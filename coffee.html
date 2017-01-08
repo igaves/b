@@ -46,15 +46,12 @@
         document.getElementsByTagName("p")[0].innerHTML = _$('author');
 
         var data = {
-            labels: ["酸","甜","苦","咸","厚度","一致性","余韵"],
+            labels: ["酸","甜","苦","厚度","一致性","余韵"],
             datasets: [
                 {
-                    backgroundColor: "rgba(115,64,64,0.5)",
+                    backgroundColor: "rgba(102,51,0,.5)",
                     borderColor: "rgba(179,181,198,0)",
-                    pointBackgroundColor: "rgba(179,181,198,.3)",
-                    pointBorderColor: "#fff",
-                    pointHoverBackgroundColor: "#fff",
-                    pointHoverBorderColor: "rgba(179,181,198,1)",
+                    pointRadius:0,
                     data:function(){
                         var arr = _$("value").split(','),returnArr=[];
                         for(var i=0;i<arr.length;i++){

@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b4de9f1-0681-46cc-b50c-6b611613fcc4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/coffee/file-coffeebean.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/bd1e73a4eb432ab7fb4edba79182d6b59b79a3f0/_base.scssc" afterPath="$PROJECT_DIR$/.sass-cache/bd1e73a4eb432ab7fb4edba79182d6b59b79a3f0/_base.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/bd1e73a4eb432ab7fb4edba79182d6b59b79a3f0/_layout.scssc" afterPath="$PROJECT_DIR$/.sass-cache/bd1e73a4eb432ab7fb4edba79182d6b59b79a3f0/_layout.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/bd1e73a4eb432ab7fb4edba79182d6b59b79a3f0/_syntax-highlighting.scssc" afterPath="$PROJECT_DIR$/.sass-cache/bd1e73a4eb432ab7fb4edba79182d6b59b79a3f0/_syntax-highlighting.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/about/index.html" afterPath="$PROJECT_DIR$/_site/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/daliy/2015/11/24/daliy.html" afterPath="$PROJECT_DIR$/_site/daliy/2015/11/24/daliy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/developer/2015/11/25/beyond-javascript.html" afterPath="$PROJECT_DIR$/_site/developer/2015/11/25/beyond-javascript.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/developer/2015/11/25/think-of-restful.html" afterPath="$PROJECT_DIR$/_site/developer/2015/11/25/think-of-restful.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/developer/2015/11/29/start-babel.html" afterPath="$PROJECT_DIR$/_site/developer/2015/11/29/start-babel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/developer/2015/12/02/about-php7.html" afterPath="$PROJECT_DIR$/_site/developer/2015/12/02/about-php7.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/developer/2016/06/11/webworker-demo.html" afterPath="$PROJECT_DIR$/_site/developer/2016/06/11/webworker-demo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/developer/2016/06/14/deny-618.html" afterPath="$PROJECT_DIR$/_site/developer/2016/06/14/deny-618.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/developer/2016/06/14/mao-dun.html" afterPath="$PROJECT_DIR$/_site/developer/2016/06/14/mao-dun.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/feed.xml" afterPath="$PROJECT_DIR$/_site/feed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/food/2016/06/14/flat-white.html" afterPath="$PROJECT_DIR$/_site/food/2016/06/14/flat-white.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/index.html" afterPath="$PROJECT_DIR$/_site/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/it/2015/12/10/ali-yunos-5-year.html" afterPath="$PROJECT_DIR$/_site/it/2015/12/10/ali-yunos-5-year.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/it/2015/12/23/the-reactnative.html" afterPath="$PROJECT_DIR$/_site/it/2015/12/23/the-reactnative.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/it/2015/12/27/how-to-build-a-project.html" afterPath="$PROJECT_DIR$/_site/it/2015/12/27/how-to-build-a-project.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/it/2016/01/01/andoir-and-front-end.html" afterPath="$PROJECT_DIR$/_site/it/2016/01/01/andoir-and-front-end.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/it/2016/01/04/finder-by-ruby.html" afterPath="$PROJECT_DIR$/_site/it/2016/01/04/finder-by-ruby.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/movie/2015/06/25/what-is-we-15.html" afterPath="$PROJECT_DIR$/_site/movie/2015/06/25/what-is-we-15.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/movie/2015/11/26/forever-movie.html" afterPath="$PROJECT_DIR$/_site/movie/2015/11/26/forever-movie.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/movie/2015/11/28/ronda-ronsey-speed.html" afterPath="$PROJECT_DIR$/_site/movie/2015/11/28/ronda-ronsey-speed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/photography/2015/12/31/final-photo-of-2015.html" afterPath="$PROJECT_DIR$/_site/photography/2015/12/31/final-photo-of-2015.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/unless/2015/11/24/power-of-writing.html" afterPath="$PROJECT_DIR$/_site/unless/2015/11/24/power-of-writing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/unless/2015/12/06/i-hate-haze.html" afterPath="$PROJECT_DIR$/_site/unless/2015/12/06/i-hate-haze.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/无聊/2016/01/03/kongfu-tea.html" afterPath="$PROJECT_DIR$/_site/无聊/2016/01/03/kongfu-tea.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coffee.html" afterPath="$PROJECT_DIR$/coffee.html" />
     </list>
     <ignored path="igaves.com.iws" />
@@ -58,11 +27,31 @@
       <file leaf-file-name="coffee.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/coffee.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="99">
+              <caret line="51" column="54" lean-forward="false" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feed.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/feed.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,7 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2016-10-04-garden-in-house.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-10-04-garden-in-house-02.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-10-12-coffee-night-13.markdown" />
         <option value="$PROJECT_DIR$/_posts/2016-10-12-coffee-night-14.markdown" />
@@ -134,6 +122,7 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$USER_HOME$/Desktop/CMSConfig.js" />
+        <option value="$PROJECT_DIR$/demo.html" />
         <option value="$PROJECT_DIR$/coffee.html" />
       </list>
     </option>
@@ -165,7 +154,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -178,62 +166,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="igaves.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="igaves.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="igaves.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="igaves.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="igaves.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="igaves.com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coffee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -397,12 +332,13 @@
       <workItem from="1483750180517" duration="53000" />
       <workItem from="1483750276082" duration="145000" />
       <workItem from="1483804751909" duration="5246000" />
-      <workItem from="1483810546466" duration="97000" />
+      <workItem from="1483810546466" duration="823000" />
+      <workItem from="1483839309192" duration="1852000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14738000" />
+    <option name="totallyTimeSpent" value="17316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -413,19 +349,38 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967907" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33521923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33521923" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33521923" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3368336" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967907" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -448,23 +403,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/life/2015-11-21-i-am-back.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/about.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="46">
-            <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
@@ -748,15 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="67" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,14 +693,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="3238" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3239" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#9;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#11;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#13;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#15;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#17;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#19;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#21;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#23;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#25;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#27;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#29;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#31;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#33;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#35;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#37;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#39;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#41;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#43;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#45;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#46;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#48;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#50;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#52;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#54;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#56;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#58;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#60;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#62;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#64;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#66;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#68;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#70;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#72;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#74;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#76;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#78;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/feed.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/coffee.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        <state relative-caret-position="99">
+          <caret line="51" column="54" lean-forward="false" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
           <folding>
             <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
