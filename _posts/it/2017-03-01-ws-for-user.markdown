@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  后台管理系统（中台系统）接入websocket通知机制
-date:   2016-12-22 23:59:59
+date:   2017-03-01 08:59:59
 categories: it
 summary: >
     actioncable／sidekiq 跑了一下，确实可行，但是商业实现必须'有用'。
