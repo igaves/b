@@ -7,7 +7,7 @@ permalink: /about/
 <p>朋友们</p>
 <ul>
     <li><a href="http://igaves.lofter.com/">老夫千年不更新的lofter</a></li>
-        <li><a href="https://weibo.com/igaves">老夫千年不更新的lofter</a></li>
+        <li><a href="https://weibo.com/igaves">老夫的微博</a></li>
     <li><a href="http://xxwu.tech">        WuXiaoxiao&#39;s blog          </a></li>
 </ul>
 
