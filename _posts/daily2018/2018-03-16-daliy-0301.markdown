@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  所谓生死有命
-date:   2018-03-016 00:21:30 +0800
+date:   2018-03-16 00:21:30 +0800
 categories: daily2018 
 author: 莫大艺术家
 ---
