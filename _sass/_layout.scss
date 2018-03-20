@@ -2,10 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -190,7 +187,7 @@
 }
 
 .post-link {
-    display: block;
+    display: inline-block;
     font-size: 24px;
 }
 
@@ -204,12 +201,16 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 26px;
     letter-spacing: -1px;
-    line-height: 1;
+    text-align: center;
+    background: #eee;
+    padding: 20px;
+    color: #666;
+    line-height: 1.5;
 
     @include media-query($on-laptop) {
-        font-size: 36px;
+        font-size: 26px;
     }
 }
 
