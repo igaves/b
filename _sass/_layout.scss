@@ -204,9 +204,8 @@
     font-size: 26px;
     letter-spacing: -1px;
     text-align: center;
-    background: #eee;
     padding: 20px;
-    color: #666;
+    color: #333333;
     line-height: 1.5;
 
     @include media-query($on-laptop) {
