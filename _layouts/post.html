@@ -19,9 +19,9 @@ layout: default
       siteHeader.querySelector('.head-title h1').innerHTML = document.querySelector('.post-title').innerHTML;
       window.addEventListener('scroll',function(){
           var titleShown = /title\-display/i.test(siteHeader.className);
-          if(window.scrollY>56 && !titleShown){
+          if(window.scrollY>112 && !titleShown){
             siteHeader.className = 'site-header title-display';
-          }else if(window.scrollY < 56 && titleShown){
+          }else if(window.scrollY < 112 && titleShown){
             siteHeader.className = 'site-header';
           }
       });
