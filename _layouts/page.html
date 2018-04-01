@@ -12,3 +12,16 @@ layout: default
   </div>
 
 </article>
+<script>
+  try{
+    var siteHeader = document.querySelector('header.site-header');
+    window.addEventListener('scroll',function(){
+        var titleShown = /title\-display/i.test(siteHeader.className);
+        if(window.scrollY>56 && !titleShown){
+          siteHeader.className = 'site-header title-display';
+        }else if(window.scrollY < 56 && titleShown){
+          siteHeader.className = 'site-header';
+        }
+    });
+  }catch(e){}
+</script>
