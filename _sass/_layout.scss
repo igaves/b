@@ -4,7 +4,18 @@
 .site-header {
     min-height: 56px;
     // Positioning context for the mobile navigation icon
-    position: relative;
+    position: fixed;
+    width:100%;
+    .wrapper{
+        position: absolute;
+        transform: top .3s;
+        top:0;
+    }
+    &.title-display{
+        .wrapper{
+            top:-56px;
+        }
+    }
 }
 
 .site-title {
@@ -165,7 +176,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: 56px 0 $spacing-unit 0;
 }
 
 .page-heading {
