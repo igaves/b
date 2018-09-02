@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  拼多多
+title:  反思拼多多上市
 date:   2018-07-26 00:21:30 +0800
 categories: daily2018 
 author: 莫大艺术家
