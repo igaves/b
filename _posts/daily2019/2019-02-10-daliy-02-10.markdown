@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  股票投资总结
+title:  股票投资总结-之一
 date:   2019-02-10 00:21:30 +0800
 categories: daily2018 
 author: 莫大艺术家
