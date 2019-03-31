@@ -2,7 +2,7 @@
 layout: post
 title:  最近的一些关于工作和业余生活的的感悟
 date:   2019-03-18 00:02:30 +0800
-categories: daily2018 
+categories: daily2019
 author: 莫大艺术家
 summary: >
     要专注
