@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  【莫大股票日志-5】防雷指南 SH:300783@--
+title:  【莫大股票日志-5】防雷指南 三只松鼠 SH:300783@--
 date:   2019-07-05 00:02:30 +0800
 categories: stock 
 author: 莫大艺术家
