@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  学习骑摩托
+title:  学习骑摩托日志（1）
 date:   2019-06-23 00:02:30 +0800
 categories: daily2019 
 author: 莫大艺术家
