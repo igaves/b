@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6139b54a-3396-4a30-a608-1b16607e2317" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/daily2020/2020-06-08-日常生活状态.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +26,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts/daily2020" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts/stock" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -39,8 +38,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_posts/daily2020" />
       <recent name="$PROJECT_DIR$/_posts/stock" />
+      <recent name="$PROJECT_DIR$/_posts/daily2020" />
     </key>
   </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
@@ -56,8 +55,20 @@
       <updated>1571153964203</updated>
       <workItem from="1571153967082" duration="742000" />
       <workItem from="1571375817702" duration="249000" />
-      <workItem from="1591288792658" duration="4105000" />
+      <workItem from="1591288792658" duration="4453000" />
+      <workItem from="1592042296813" duration="30000" />
+      <workItem from="1592135301005" duration="3918000" />
+      <workItem from="1593359057173" duration="425000" />
+      <workItem from="1593706367711" duration="200000" />
     </task>
+    <task id="LOCAL-00001" summary="add article">
+      <created>1592350935397</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592350935397</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,5 +86,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add article" />
+    <option name="LAST_COMMIT_MESSAGE" value="add article" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="442" y="124" key="CommitChangelistDialog2" timestamp="1592350935116">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="442" y="124" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1592350935116" />
   </component>
 </project>
