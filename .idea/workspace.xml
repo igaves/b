@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6139b54a-3396-4a30-a608-1b16607e2317" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/daily2020/2020-08-08-生活啊，处处是改变.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/stock/2020-12-16-老夫极度不看好百度.markdown" afterDir="false" />
+    <list default="true" id="6139b54a-3396-4a30-a608-1b16607e2317" name="Default" comment="add article">
+      <change afterPath="$PROJECT_DIR$/_posts/stock/2020-12-17-猫眼的蛋疼啊.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +17,11 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/stock/2020-12-16-老夫极度不看好百度.markdown">
+        <entry file="file://$PROJECT_DIR$/_posts/stock/2020-12-17-猫眼的蛋疼啊.markdown">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="481">
-                <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+              <first_editor relative-caret-position="270">
+                <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="46" />
               </first_editor>
               <second_editor />
             </state>
@@ -39,6 +38,7 @@
       <list>
         <option value="$PROJECT_DIR$/_posts/stock/2020-12-14-对airbnb的思考.markdown" />
         <option value="$PROJECT_DIR$/_posts/stock/2020-12-16-老夫极度不看好百度.markdown" />
+        <option value="$PROJECT_DIR$/_posts/stock/2020-12-17-猫眼的蛋疼啊.markdown" />
       </list>
     </option>
   </component>
@@ -150,7 +150,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607957233873</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add article">
+      <created>1608131950188</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608131950188</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add article">
+      <created>1608132168945</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608132168945</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -251,8 +265,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/stock/2020-12-16-老夫极度不看好百度.markdown">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="481">
-            <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+          <first_editor relative-caret-position="323">
+            <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
           </first_editor>
           <second_editor />
         </state>
@@ -260,6 +274,16 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/stock/2020-12-17-猫眼的蛋疼啊.markdown">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="46" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
