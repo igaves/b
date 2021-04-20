@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6139b54a-3396-4a30-a608-1b16607e2317" name="Default" comment="add article">
-      <change afterPath="$PROJECT_DIR$/_posts/daily2021/2021-01-14-听了一天怀念战友.markdown" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_posts/daily2021/2021-01-15-疫情风险依然在.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,13 +73,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,7 +109,8 @@
       <workItem from="1596897006501" duration="330000" />
       <workItem from="1608306324241" duration="129000" />
       <workItem from="1608477681348" duration="36000" />
-      <workItem from="1610636937649" duration="393000" />
+      <workItem from="1610636937649" duration="20648000" />
+      <workItem from="1618930190437" duration="102000" />
     </task>
     <task id="LOCAL-00001" summary="add article">
       <created>1592350935397</created>
@@ -152,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608220597808</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add article">
+      <created>1610640460099</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610640460099</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,9 +198,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="add article" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="442" y="124" key="CommitChangelistDialog2" timestamp="1592350935116">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="440" y="274" key="Vcs.Push.Dialog.v2" timestamp="1610640463558">
+      <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state x="442" y="124" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1592350935116" />
+    <state x="440" y="274" key="Vcs.Push.Dialog.v2/0.25.1680.1025@0.25.1680.1025" timestamp="1610640463558" />
   </component>
 </project>
