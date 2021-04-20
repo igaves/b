@@ -2,4 +2,7 @@ _site
 .sass-cache
 .jekyll-metadata
 /.idea/
+<<<<<<< HEAD
 /.vscode/
+=======
+>>>>>>> 93c2c16319b6f160b06997db7c47a0d86be4a3e9

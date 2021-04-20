@@ -31,11 +31,23 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+>>>>>>> 93c2c16319b6f160b06997db7c47a0d86be4a3e9
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="p555aqm6" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -72,6 +84,7 @@
       <recent name="$PROJECT_DIR$/_posts/daily2020" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
@@ -88,6 +101,8 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+=======
+>>>>>>> 93c2c16319b6f160b06997db7c47a0d86be4a3e9
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -195,7 +210,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add article" />
-    <option name="LAST_COMMIT_MESSAGE" value="add article" />
+    <MESSAGE value="build: remove idea dir" />
+    <option name="LAST_COMMIT_MESSAGE" value="build: remove idea dir" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="274" key="Vcs.Push.Dialog.v2" timestamp="1610640463558">
