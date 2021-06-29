@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  听了一天《怀念战友》
-date:   2020-01-14 00:02:30 +0800
+date:   2021-01-14 00:02:30 +0800
 categories: life 
 author: 莫大艺术家
 summary: >
