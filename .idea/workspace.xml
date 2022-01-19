@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6139b54a-3396-4a30-a608-1b16607e2317" name="Default" comment="chore: changed .">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/daily2022/2022-01-19-外国都放开了，为何我们还不放开.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/daily2021/.2021-12-01-2021年最后一个月.markdown.swp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +46,9 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="p555aqm6" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -50,6 +57,7 @@
     <option name="height" value="1050" />
   </component>
   <component name="ProjectId" id="1crZhFaKp3QQySu5vtBnjVRYRgv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -86,10 +94,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts/stock" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts/daily2022" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -99,10 +108,12 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts/daily2022" />
       <recent name="$PROJECT_DIR$/_posts/stock" />
       <recent name="$PROJECT_DIR$/_posts/daily2020" />
     </key>
@@ -127,6 +138,9 @@
       <workItem from="1593359057173" duration="425000" />
       <workItem from="1593706367711" duration="200000" />
       <workItem from="1596897006501" duration="330000" />
+      <workItem from="1641305677129" duration="52000" />
+      <workItem from="1641305739751" duration="322000" />
+      <workItem from="1641691877519" duration="4160000" />
     </task>
     <task id="LOCAL-00001" summary="add article">
       <created>1592350935397</created>
@@ -220,7 +234,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add article" />
