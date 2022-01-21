@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6139b54a-3396-4a30-a608-1b16607e2317" name="Default" comment="chore: changed .">
-      <change afterPath="$PROJECT_DIR$/_posts/daily2022/2022-01-19-外国都放开了，为何我们还不放开.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/daily2022/2022-01-21-腾讯视频做短视频能做起来么.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/daily2021/.2021-12-01-2021年最后一个月.markdown.swp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +139,9 @@
       <workItem from="1596897006501" duration="330000" />
       <workItem from="1641305677129" duration="52000" />
       <workItem from="1641305739751" duration="322000" />
-      <workItem from="1641691877519" duration="4160000" />
+      <workItem from="1641691877519" duration="5622000" />
+      <workItem from="1642777484814" duration="18000" />
+      <workItem from="1642777527534" duration="1096000" />
     </task>
     <task id="LOCAL-00001" summary="add article">
       <created>1592350935397</created>
@@ -170,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608132168945</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="chore: changed .">
+      <created>1642606491724</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1642606491724</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -238,7 +246,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add article" />
     <MESSAGE value="build: remove idea dir" />
-    <option name="LAST_COMMIT_MESSAGE" value="build: remove idea dir" />
+    <MESSAGE value="chore: changed ." />
+    <option name="LAST_COMMIT_MESSAGE" value="chore: changed ." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_posts/stock/2020-12-14-对airbnb的思考.markdown">
