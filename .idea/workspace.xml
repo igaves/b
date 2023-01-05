@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6139b54a-3396-4a30-a608-1b16607e2317" name="Default" comment="add articles">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/daily2022/2022-01-21-腾讯视频做短视频能做起来么.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/daily2022/2022-01-21-腾讯视频做短视频能做起来么.markdown" afterDir="false" />
-    </list>
+    <list default="true" id="6139b54a-3396-4a30-a608-1b16607e2317" name="Default" comment="fix: 修正头信息" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +91,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -131,6 +130,7 @@
       <workItem from="1642777527534" duration="1188000" />
       <workItem from="1645408148961" duration="600000" />
       <workItem from="1672935927294" duration="4000" />
+      <workItem from="1672938501735" duration="270000" />
     </task>
     <task id="LOCAL-00001" summary="add article">
       <created>1592350935397</created>
@@ -174,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642778639317</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix: 修正头信息">
+      <created>1672938622301</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672938622301</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -244,7 +251,8 @@
     <MESSAGE value="build: remove idea dir" />
     <MESSAGE value="chore: changed ." />
     <MESSAGE value="add articles" />
-    <option name="LAST_COMMIT_MESSAGE" value="add articles" />
+    <MESSAGE value="fix: 修正头信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: 修正头信息" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_posts/stock/2020-12-14-对airbnb的思考.markdown">
