@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6139b54a-3396-4a30-a608-1b16607e2317" name="Default" comment="chore: changed .">
-      <change afterPath="$PROJECT_DIR$/_posts/daily2022/2022-01-21-腾讯视频做短视频能做起来么.markdown" afterDir="false" />
+    <list default="true" id="6139b54a-3396-4a30-a608-1b16607e2317" name="Default" comment="add articles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/daily2022/2022-01-21-腾讯视频做短视频能做起来么.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/daily2022/2022-01-21-腾讯视频做短视频能做起来么.markdown" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,24 +92,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts/daily2022" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_posts/daily2022" />
@@ -141,7 +128,9 @@
       <workItem from="1641305739751" duration="322000" />
       <workItem from="1641691877519" duration="5622000" />
       <workItem from="1642777484814" duration="18000" />
-      <workItem from="1642777527534" duration="1096000" />
+      <workItem from="1642777527534" duration="1188000" />
+      <workItem from="1645408148961" duration="600000" />
+      <workItem from="1672935927294" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="add article">
       <created>1592350935397</created>
@@ -178,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642606491724</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add articles">
+      <created>1642778639317</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1642778639317</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -247,7 +243,8 @@
     <MESSAGE value="add article" />
     <MESSAGE value="build: remove idea dir" />
     <MESSAGE value="chore: changed ." />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: changed ." />
+    <MESSAGE value="add articles" />
+    <option name="LAST_COMMIT_MESSAGE" value="add articles" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/_posts/stock/2020-12-14-对airbnb的思考.markdown">
